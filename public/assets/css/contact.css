@@ -8,10 +8,54 @@
     border-bottom-left-radius: 66px;
     height: 75vh;
     width: 100%;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-left-side {
+    display: inline-block;
+    width: 500px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-left: -100px;
+}
+
+.contact-right-side {
+    display: inline-block;
+}
+
+.footer-cont {
+    padding-top: 5vh;
+
+}
+
+.footer-logo {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .footer1 {
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     text-align: center;
     font-weight: bolder;
+}
+
+@media only screen and (max-width: '1440px') {
+    .contact-left-side {
+        display: inline-block;
+        width: 200px;
+        padding-right: 50px;
+        padding-top: 50px;
+        margin-left: -50px;
+    }
+    
+    .contact-right-side {
+        display: inline-block;
+    }
 }
