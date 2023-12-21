@@ -1,0 +1,54 @@
+.company-cont {
+    height: 100vh;
+}
+
+.company-strip {
+    /* background-color: antiquewhite; */
+    display: inline-block;
+    width: 45vw;
+    height: 70vh;
+    border-left: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    /* border-right: 10px solid #fff; */
+    border-bottom-left-radius: 66px;
+}
+
+.company-strip1 {
+    /* background-color: black; */
+    display: inline-block;
+    width: 5vw;
+    height: 40vh;
+    border-right: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    border-bottom-right-radius: 66px;
+    margin-top: 20vh;    
+}
+
+.company-strip2 {
+    /* background-color: yellow; */
+    display: inline-block;
+    width: 35vw;
+    height: 40vh;
+    margin-bottom: 10vh;
+    border-right: 10px solid #fff;
+    border-top: 10px solid #fff;
+    border-left: 10px solid #fff;
+    border-top-right-radius: 66px;
+    border-top-left-radius: 66px;
+    margin-left: -10px;
+}
+
+.company-strip3 {
+    /* background-color: black; */
+    height: calc(40vh + 10px);
+    margin-top: calc(-10vh - 10px);
+    width: calc(85vw - 10px);
+    border-right: 10px solid #fff;
+    position: relative;
+}
+
+.company-link {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}

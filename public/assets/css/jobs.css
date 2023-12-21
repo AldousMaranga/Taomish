@@ -1,0 +1,66 @@
+.job-cont {
+    height: 100vh;
+    position: relative;
+}
+
+.job-strip{
+    height: 10vh;
+    border-right: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    width: 45%;
+    margin-left: 50%;
+    border-bottom-right-radius: 66px;
+}
+
+.job-strip1{
+    height: 70vh;
+    border-left: 10px solid #fff;
+    border-top: 10px solid #fff;
+    width: 40%;
+    margin-left: 45%;
+    margin-top: -10px;
+    border-top-left-radius: 66px;
+}
+
+.job-strip2 {
+    height: 10vh;
+    margin-right: calc(55% - 10px);
+    margin-left: 66px;
+    border-right: 10px solid #fff;
+    border-bottom-right-radius: 66px;
+    border-bottom: 10px solid #fff;
+}
+
+.job-strip3 {
+    height: calc(10vh + 20px);
+    margin-right: calc(60% - 10px);
+    margin-top: -10px;
+    border-left: 10px solid #fff;
+    border-top: 10px solid #fff;
+    border-top-left-radius: 66px;
+
+}
+
+.job-text-cont {
+    width: 45%;
+    height: 90vh;
+    position: absolute;
+    right: 54%;
+    padding-left: 80px;
+    padding-top: 50px;
+    text-align: right;
+}
+
+.job-text1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.job-text2 {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}

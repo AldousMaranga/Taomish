@@ -1,0 +1,61 @@
+.technology-strip{
+    padding-bottom: 150px;
+    border-right: 10px solid #fff;
+    width: 90%;
+    height: 100vh;
+    margin-left: 5%;
+    margin-top: -10px;
+    position: relative;
+}
+
+.tech-img{
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    height: auto;
+}
+
+.text-1{
+    padding: 30px 100px 0 50px;
+    font-size: 20px;
+}
+
+.text-2 {
+    position: absolute;
+    width: 500px;
+    bottom: 80px;
+    right: 50px;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .tech-img{
+        position: absolute;
+        bottom: 0;
+        width: 60%;
+        height: auto;
+    }
+
+    .text-2 {
+        position: absolute;
+        width: 500px;
+        bottom: 50px;
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .tech-img{
+        position: absolute;
+        bottom: 0;
+        width: 60%;
+        height: auto;
+    }
+
+    .text-2 {
+        position: absolute;
+        width: 420px;
+        bottom: 0;
+        right: 10px;
+    }
+}

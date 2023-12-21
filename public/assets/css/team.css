@@ -1,0 +1,82 @@
+.team-cont {
+    height: 100vh;
+}
+
+.team-strip {
+    border-right: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    border-bottom-right-radius: 66px;
+    width: 90%;
+    height: 10vh;
+    margin-left: 5%;
+}
+
+.team-strip1 {
+    border-left: 10px solid #fff;
+    border-top: 10px solid #fff;
+    width: 85%;
+    margin-top: -10px;
+    border-top-left-radius: 66px;
+    position: relative;
+    height: calc(90vh + 10px);
+}
+
+.team-text {
+    padding-left: 50px;
+    width: 20vw;
+    padding-top: 50px;
+}
+
+.team-text1 {
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.carousel-cont {
+    width: 660px;
+    height: 420px;
+    position: absolute;
+    right: 0;
+    bottom: 160px;
+}
+
+.carousel-img {
+    border-top-left-radius: 200px;
+    width: auto;
+    height: auto;
+}
+
+.CCarouselItem {
+    transition-duration: 1s !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .team-text {
+        padding-left: 50px;
+        width: 25vw;
+        padding-top: 50px;
+    }
+
+    .team-text1 {
+        padding-top: 30px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .carousel-cont {
+        border-top-left-radius: 66px;
+        width: 450px;
+        height: 300px;
+        position: absolute;
+        right: 0;
+        bottom: 200px;
+    }
+    
+    .carousel-img {
+        border-top-left-radius: 200px;
+        width: auto;
+        height: auto;
+    }
+
+}

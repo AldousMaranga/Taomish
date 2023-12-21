@@ -1,0 +1,17 @@
+.contact-cont {
+    height: 100vh;
+}
+
+.contact-strip {
+    border-left: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    border-bottom-left-radius: 66px;
+    height: 75vh;
+    width: calc(90vw + 9px);
+}
+
+.footer1 {
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: bolder;
+}

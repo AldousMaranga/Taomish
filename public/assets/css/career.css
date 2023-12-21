@@ -1,0 +1,88 @@
+.career-cont {
+    height: 100vh;
+}
+
+.career-strip{
+    height: 15vh;
+    width: 90%;
+    border-left: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    border-bottom-left-radius: 66px;
+    margin-right: calc(85vh - 10px);
+}
+
+.career-strip1{
+    /* display: flex;
+    align-items: flex-end; */
+    height: calc(85vh + 10px);
+    border-right: 10px solid #fff;
+    border-top: 10px solid #fff;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -10px;
+    border-top-right-radius: 66px;
+    position: relative;
+}
+
+.career-img-cont {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: -135px;
+    border-top-right-radius: 200px;
+}
+
+.career-img {
+    height: 550px;
+    width: 500px;
+    border-top-right-radius: 200px;
+}
+
+.career-text-cont {
+    padding-top: 50px;
+    position: absolute;
+    right: 30px;
+    text-align: right;
+    width: 600px;
+}
+
+.career-text1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.career-text2 {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .career-img {
+        height: 500px;
+        width: 450px;
+        border-top-right-radius: 200px;
+    }
+
+    .career-text-cont {
+        padding-top: 50px;
+        position: absolute;
+        right: 30px;
+        text-align: right;
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .career-img {
+        height: 450px;
+        width: 350px;
+        border-top-right-radius: 200px;
+    }
+
+    .career-text-cont {
+        padding-top: 50px;
+        position: absolute;
+        right: 30px;
+        text-align: right;
+        width: 550px;
+    }
+}

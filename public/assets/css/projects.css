@@ -1,0 +1,162 @@
+.project-cont {
+    width: 100%;
+    padding-bottom: 50px;
+    overflow-x: auto;
+}
+
+.project-strip {
+    width: 90%;
+    height: 65vh;
+    border-left: 10px solid #fff;
+    margin-right: calc(85vh - 10px);
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.project-strip1 {
+    height: 10vh;
+    width: 90%;
+    border-left: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    border-bottom-left-radius: 66px;
+}
+
+.project-strip2 {
+    border-right: 10px solid #fff;
+    border-top: 10px solid #fff;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -10px;
+    border-top-right-radius: 66px;
+    height: 25vh;
+}
+
+.t-txt1 {
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.t-txt2 {
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.t-txt3 {
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.padding-top {
+    padding-top: 30px;
+}
+
+.card-column {
+    display: flex;
+    position: relative;
+}
+
+.card-cont {
+    flex: 1 1;
+    max-width: 250px;
+    min-width: 250px;
+    position: relative;
+    margin-right: 36px;
+    display: inline-block;
+
+}
+
+.card {
+    background: #ffffff;
+    border: 0px;
+    box-shadow: 0 14px 55px -40px rgba(0, 0, 0, .12);
+    border-radius: 13px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.front-card .back-card {
+    position: absolute;
+}
+
+.front-card {
+    padding: 15px;
+}
+
+.back-card {
+    display: none;
+    background: linear-gradient(to bottom left, rgba(72, 0, 145, 0.8), #000000);
+    padding: 15px;
+    border-radius: 13px;
+    height: 100%;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+.card:hover .back-card {
+    display: block;
+}
+
+.card:hover .front-card {
+    opacity: 0.3;
+    display: none;
+}
+
+.card-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bc-txt1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.bc-txt2 {
+    font-size: 15px;
+    color: #33FFCE;
+}
+
+/* @media only screen and (min-width: '1440px') {
+    .project-strip {
+        width: 90%;
+        height: 70vh;
+        border-left: 10px solid #fff;
+        margin-right: calc(85vh - 10px);
+        position: relative;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    
+    .project-strip1 {
+        height: 10vh;
+        width: 90%;
+        border-left: 10px solid #fff;
+        border-bottom: 10px solid #fff;
+        border-bottom-left-radius: 66px;
+    }
+    
+    .project-strip2 {
+        border-right: 10px solid #fff;
+        border-top: 10px solid #fff;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: -10px;
+        border-top-right-radius: 66px;
+        padding-top: 20vh;
+        height: 20vh;
+    }
+} */
