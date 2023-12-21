@@ -7,7 +7,7 @@
     border-bottom: 10px solid #fff;
     border-bottom-left-radius: 66px;
     height: 75vh;
-    width: calc(90vw + 9px);
+    width: 100%;
 }
 
 .footer1 {

@@ -7,7 +7,10 @@ class Contact extends Component {
         <link rel="stylesheet" href="/assets/css/contact.css" type="text/css" />
         <div id="contact">
           <div className="min-height p-left d-none d-lg-block contact-cont">
-            <div className="contact-strip"></div>
+            <div className="contact-strip">
+              <div className="title">CONTACT</div>
+            </div>
+
             <div>
               <div className="footer1">© All rights reserved | Taomish India Pvt. Ltd.</div>
             </div>
