@@ -86,3 +86,12 @@
         width: 550px;
     }
 }
+
+/* Mobile View */
+
+.small-career-strip {
+    border-left: 10px solid #fff;
+    margin-left: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
