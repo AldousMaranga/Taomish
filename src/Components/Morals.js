@@ -21,7 +21,7 @@ class Morals extends Component {
                                         Purpose. Lorem ipsum dolor sit amet, consectetur adipiscing
                                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor
                                         sit amet lacus accumsan et viverra justo commodo. Proin
-                                        sodales pulvinar sic tempor. 
+                                        sodales pulvinar sic tempor.
                                     </div>
                                 </div>
                                 <div className="mvo">
@@ -30,7 +30,7 @@ class Morals extends Component {
                                         Mission. Lorem ipsum dolor sit amet, consectetur adipiscing
                                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor
                                         sit amet lacus accumsan et viverra justo commodo. Proin
-                                        sodales pulvinar sic tempor. 
+                                        sodales pulvinar sic tempor.
                                     </div>
                                 </div>
                                 <div className="mvo">
@@ -46,9 +46,40 @@ class Morals extends Component {
                         </div>
                     </div>
 
-                    
+                    <div className="small-screen-cont d-lg-none">
+                        <div className="small-moral-strip">
+                            <div className="pb-5 pt-5">
+                                <div className="mvo-header">Our Purpose</div>
+                                <div>
+                                    Purpose. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor
+                                    sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar sic tempor.
+                                </div>
+                            </div>
+                            <div className="pb-5">
+                                <div className="mvo-header">Mission</div>
+                                <div>
+                                    Mission. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor
+                                    sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar sic tempor.
+                                </div>
+                            </div>
+                            <div className="pb-5">
+                                <div className="mvo-header">Vision</div>
+                                <div>
+                                    Vision. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Aenean euismod bibendum laoreet. Proin gravida dolor
+                                    sit amet lacus accumsan et viverra justo commodo. Proin
+                                    sodales pulvinar sic tempor.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </html>
+            </html >
         );
     }
 }
