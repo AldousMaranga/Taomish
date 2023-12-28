@@ -61,6 +61,7 @@
     left: 0;
 }
 
+
 @media only screen and (max-width: 1440px) {
     .work-strip {
         height: 20vh;
@@ -95,4 +96,11 @@
         padding-bottom: 10px;
     }
 
+}
+
+/* phone view css */
+.small-work-strip {
+    border-left: 10px solid #fff;
+    margin-left: 5vw;
+    height: 500px;
 }

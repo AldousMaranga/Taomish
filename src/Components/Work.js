@@ -54,7 +54,11 @@ class Work extends Component {
                         </div>
 
                     </div>
-                    <div className="min-height d-lg-none">Work</div>
+                    <div className="small-screen-cont d-lg-none">
+                        <div className="small-work-strip">
+                            
+                        </div>
+                    </div>
                 </div>
             </html>
         );
