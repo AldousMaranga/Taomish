@@ -59,3 +59,17 @@
         right: 10px;
     }
 }
+
+/* Mobile View */
+.small-technology-strip {
+    border-left: 10px solid #fff;
+    margin-left: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.text-1-small{
+    padding: 30px 0 0 0;
+    font-size: 20px;
+}
+
