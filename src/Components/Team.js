@@ -34,13 +34,43 @@ class Team extends Component {
                                     </CCarouselItem>
                                 </CCarousel>
                             </div>
-                            <a href="#careers" style={{ textDecoration: 'none', color: '#000000', paddingLeft: '30px'}}>
+                            <a href="#careers" style={{ textDecoration: 'none', color: '#000000', paddingLeft: '30px' }}>
                                 <img src='assets/images/down-arrow.svg' alt='img' className="arrow-nav" />
                                 <span>Careers</span>
                             </a>
                         </div>
                     </div>
-                    <div className="min-height d-lg-none">Team</div>
+
+                    <div className="small-screen-cont d-lg-none">
+                        <div className="small-team-strip">
+                            <div className="title">TEAM</div>
+                            <div className="team-text1 pb-4">
+                                Diverse team of corporate innovators, product managers,
+                                designers and engineers as you develop a winning future-back
+                                strategy.
+                            </div>
+                            <div className="carousel-cont-small pb-4">
+                                <CCarousel transition="crossfade" controls>
+                                    <CCarouselItem className="carousel-item">
+                                        <CImage className="carousel-img" src="assets/images/slide1.jpg" alt="slide 1" />
+                                    </CCarouselItem>
+                                    <CCarouselItem className="carousel-item">
+                                        <CImage className="carousel-img" src="assets/images/slide2.jpeg" alt="slide 2" />
+                                    </CCarouselItem>
+                                    <CCarouselItem className="carousel-item">
+                                        <CImage className="carousel-img" src='assets/images/slide3.jpg' alt="slide 3" />
+                                    </CCarouselItem>
+                                </CCarousel>
+                            </div>
+      
+                            <div className="pb-5">
+                                <a href="#careers" style={{ textDecoration: 'none', color: '#000000' }}>
+                                    <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
+                                    <span >Careers</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </html>
         );

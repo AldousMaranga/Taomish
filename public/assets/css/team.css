@@ -72,11 +72,24 @@
         right: 0;
         bottom: 200px;
     }
-    
+
     .carousel-img {
         border-top-left-radius: 200px;
         width: auto;
         height: auto;
     }
 
+}
+
+/* Mobile View */
+.small-team-strip {
+    border-left: 10px solid #fff;
+    margin-left: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.carousel-cont-small {
+    width: 100%;
+    height: auto;
 }
