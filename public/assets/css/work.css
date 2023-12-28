@@ -102,5 +102,15 @@
 .small-work-strip {
     border-left: 10px solid #fff;
     margin-left: 5vw;
-    height: 500px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    min-height: 500px;
+}
+
+.globe-small {
+    position: absolute;
+    right: 0;
+    top: 600px;
+    width: calc(40vw - 10px);
+    height: calc(100vh + 100px);
 }
