@@ -59,3 +59,11 @@
         display: inline-block;
     }
 }
+
+/* Mobile View */
+.small-contact-strip {
+    border-left: 10px solid #fff;
+    margin-left: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
