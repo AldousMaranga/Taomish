@@ -60,7 +60,19 @@
     font-size: 16px;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
 
 
+} */
+
+/* Mobile View */
+.small-jobs-strip {
+    border-left: 10px solid #fff;
+    margin-left: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.job-strip1-small {
+    min-height: 200px;
 }
