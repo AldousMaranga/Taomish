@@ -17,6 +17,17 @@ class Company extends Component {
                             </a>
                         </div>
                     </div>
+
+                    <div className="small-screen-cont d-lg-none">
+                        <div className="small-company-strip">
+                            <div className="pb-5">
+                                <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }}>
+                                    <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
+                                    <span >Where we're Heading</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </html>
 
