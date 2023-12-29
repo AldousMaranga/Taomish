@@ -21,13 +21,16 @@ const Navigation = () => {
                         <img src='assets/images/collapsible-arrow.svg' alt='img' height="auto" width="50px" className='arrow-img'/>
                     </div>
                     <div className='collapsible-content'>
-                        <a href="https://www.xceler.ai/" target="_blank" className='img-link pb-3'>
+                        <a href="https://www.xceler.ai/" target="_blank" className='img-link'>
                             <img src='assets/images/xceler.png' alt='img' width="200px" height="auto" />
                         </a>
+                        <div className='link-description pb-3'>Xceler.ai</div>
 
                         <a href="https://taru.ag/" target="_blank" className='img-link'>
                             <img src='assets/images/taru.png' alt='img' width="200px" height="auto" />
                         </a>
+                        <div className='link-description' style={{marginBottom: '-20px'}}>Taru.ag</div>
+
                     </div>
                 </div>
             </div>

@@ -65,7 +65,6 @@
 /* Collapsible Sidenav */
 .right-nav {
     position: relative;
-
 }
 
 .collapsible {
@@ -84,6 +83,7 @@
     align-items: center;
     display: block;
     width: 70px;
+    height: 70px;
     border-bottom-left-radius: 25px;
     transition: transform 1s ease;
 }
@@ -91,11 +91,18 @@
 .collapsible-content {
     display: none;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px 20px 20px 10px;
+    padding: 20px;
+    border-bottom-left-radius: 25px;
 }
 
 .img-link {
     display: block;
+}
+
+.link-description {
+    color: white;
+    transform: translateY(-25px);
+    text-shadow: 1px 1px 2px black;
 }
 
 .collapsible:hover .collapsible-content {
