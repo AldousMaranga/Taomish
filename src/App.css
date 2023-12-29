@@ -7,7 +7,6 @@
     background-color: #000000;
     position: fixed;
     z-index: 1000;
-
 }
 
 .nav {
@@ -54,7 +53,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: Montserrat,-apple-system,Roboto,Helvetica Neue,sans-serif;
+    font-family: Montserrat, -apple-system, Roboto, Helvetica Neue, sans-serif;
 }
 
 .arrow-nav {
@@ -63,10 +62,48 @@
 }
 
 
-/* @media only screen and (max-width: 1200px) {
-    .arrow-nav {
-        height:60px;
-        width: auto;
-    }
-} */
+/* Collapsible Sidenav */
+.right-nav {
+    position: relative;
 
+}
+
+.collapsible {
+    /* width: 600px; */
+    position: fixed;
+    right: 0;
+    z-index: 2000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.collapsible-header {
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    display: block;
+    width: 70px;
+    border-bottom-left-radius: 25px;
+    transition: transform 1s ease;
+}
+
+.collapsible-content {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 20px 20px 10px;
+}
+
+.img-link {
+    display: block;
+}
+
+.collapsible:hover .collapsible-content {
+    display: block;
+}
+
+.collapsible:hover .arrow-img {
+    transition: transform 0.3s ease;
+
+    transform: rotate(180deg);
+}
