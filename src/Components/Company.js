@@ -8,9 +8,9 @@ class Company extends Component {
                 <div id="company">
                     <div className="min-height p-left d-none d-lg-block company-cont">
                         <div className="company-strip"></div>
-                        <div className="company-strip1"></div>
-                        <div className="company-strip2"></div>
-                        <div className="company-strip3">
+                        {/* <div className="company-strip1"></div> */}
+                        {/* <div className="company-strip2"></div> */}
+                        <div className="company-strip1">
                             <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }} className="company-link">
                                 <img src='assets/images/down-arrow.svg' alt='img' className="arrow-nav" />
                                 <span>Where we're Heading</span>

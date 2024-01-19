@@ -5,7 +5,8 @@
 .moral-strip {
     /* background-color: black; */
     height: 60vh;
-    width: calc(85vw - 76px);
+    /* width: calc(85vw - 76px); */
+    width: 90%;
     margin-left: 66px;
     border-right: 10px solid #fff;
     border-bottom: 10px solid #fff;
