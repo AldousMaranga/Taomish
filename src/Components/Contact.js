@@ -20,16 +20,7 @@ class Contact extends Component {
               </div>
 
               <div className="contact-right-side">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.627795209487!2d77.5762921808866!3d12.931627354840458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158fb8aac379%3A0xd0587f19b3db82f9!2s6th%20Main%20Rd%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1703155564395!5m2!1sen!2sin"
-                  width="500"
-                  height="450"
-                  style={{ border: '0' }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Google Map"
-                ></iframe>
+                <img src="assets/images/map.png" alt="img" height="100%" width="auto"/>
               </div>
 
             </div>
@@ -58,16 +49,7 @@ class Contact extends Component {
               <textarea type="text" id="message" name="message" className="form-control" />
 
               <div className="pt-3 pb-3">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.627795209487!2d77.5762921808866!3d12.931627354840458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158fb8aac379%3A0xd0587f19b3db82f9!2s6th%20Main%20Rd%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1703155564395!5m2!1sen!2sin"
-                  width="100%"
-                  height="450"
-                  style={{ border: '0' }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Google Map"
-                ></iframe>
+                <img src="assets/images/map.png" alt="img" width="100%" height="auto" />
               </div>
 
               <div>
