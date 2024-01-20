@@ -25,7 +25,7 @@ class Landing extends Component {
                                     <div>
                                         <div className="row">
                                             <div className="col-lg-4 d-none d-lg-block">
-                                                <img src='assets/images/img.png' alt="img" className="img-div"/>
+                                                <img src='assets/images/bldg.png' alt="img" className="img-div"/>
                                             </div>
                                             <div className="col-lg-8  d-block " style={{ fontSize: '12px' }}>
                                                 In today’s mobile, ubiquitous, and instantaneous world. When other technology providers opt for easy problems, Taomish exclusively develops new age solutions for end-to-end supply chain, trading & risk where the structure of data models are much more complex & intense.
@@ -37,7 +37,7 @@ class Landing extends Component {
                                     <div>
                                         <div className="row">
                                             <div className="col-lg-4 d-none d-lg-block">
-                                                <img src='assets/images/img.png' alt="img" className="img-div"/>
+                                                <img src='assets/images/tesseract.png' alt="img" className="img-div"/>
                                             </div>
                                             <div className="col-lg-8  d-block" style={{ fontSize: '10px' }}>
                                                 <h6>What We Do</h6>
@@ -50,7 +50,7 @@ class Landing extends Component {
                                     <div>
                                         <div className="row">
                                             <div className="col-lg-4 d-none d-lg-block">
-                                                <img src='assets/images/img.png' alt="img" className="img-div"/>
+                                                <img src='assets/images/bldg.png' alt="img" className="img-div"/>
                                             </div>
                                             <div className="col-lg-8 d-block" style={{ fontSize: '10px' }}>
                                                 <h6>Who We Are</h6>
@@ -63,7 +63,7 @@ class Landing extends Component {
                                     <div>
                                         <div className="row">
                                             <div className="col-lg-4 d-none d-lg-block">
-                                                <img src='assets/images/img.png' alt="img" className="img-div"/>
+                                                <img src='assets/images/tesseract.png' alt="img" className="img-div"/>
                                             </div>
                                             <div className="col-lg-8  d-block" style={{ fontSize: '10px' }}>
                                                 <h6>Work With Us</h6>
