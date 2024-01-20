@@ -21,11 +21,10 @@ class Jobs extends Component {
                                 improve the lives of millions of people arount the world.
                             </div>
                             <hr className="pb-2"></hr>
-                            <h5 className="pb-2">India</h5>
-                            <h5 className="pb-2">Americas</h5>
-                            <h5 className="pb-2">Asia Pacific</h5>
-                            <h5 className="pb-2">Europe and UK</h5>
-                            <h5 className="pb-2">Middle East and Africa</h5>
+                            <h5 style={{fontWeight: "bold"}}>India <img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></h5>
+                            <h6 style={{textDecoration: "underline"}}>Bengaluru</h6>
+                            <h6 className="pb-3" style={{textDecoration: "underline"}}>Thiruvananthapuram</h6>
+                            <h5 className="pb-2" style={{fontWeight: "bold"}}>Singapore <img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></h5>
 
                         </div>
 
@@ -49,10 +48,8 @@ class Jobs extends Component {
                             </div>
                             <hr className="pb-2"></hr>
                             <h5 className="pb-2">India</h5>
-                            <h5 className="pb-2">Americas</h5>
-                            <h5 className="pb-2">Asia Pacific</h5>
-                            <h5 className="pb-2">Europe and UK</h5>
-                            <h5 className="pb-2">Middle East and Africa</h5>
+                            <h5 className="pb-2">Singapore</h5>
+                   
 
                             <div className="job-strip1-small"></div>
 
