@@ -60,7 +60,9 @@ class Morals extends Component {
 
                     <div className="small-screen-cont d-lg-none">
                         <div className="small-moral-strip">
+    
                             <div className="pb-5 pt-5">
+                                <div className="title pb-5">WHERE WE ARE HEADING</div>
                                 <div className="mvo-header">Who we are?</div>
                                 <div className="pb-3">
                                     <span style={{ fontWeight: "bold" }}>Leaders</span> in Trading, Risk management, Technology and User experience.

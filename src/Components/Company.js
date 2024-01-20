@@ -7,9 +7,9 @@ class Company extends Component {
                 <link rel="stylesheet" href="/assets/css/company.css" type="text/css" />
                 <div id="company">
                     <div className="min-height p-left d-none d-lg-block company-cont">
-                        <div className="company-strip"></div>
-                        {/* <div className="company-strip1"></div> */}
-                        {/* <div className="company-strip2"></div> */}
+                        <div className="company-strip text-cont">
+                            <div className="title">COMPANY'S TIMELINE</div>
+                        </div>
                         <div className="company-strip1">
                             <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }} className="company-link">
                                 <img src='assets/images/down-arrow.svg' alt='img' className="arrow-nav" />
