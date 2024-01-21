@@ -67,47 +67,49 @@ class Company extends Component {
                                 <div class="timeline-small">
                                     <div class="container left">
                                         <div class="content">
-                                            <span style={{fontWeight: 'bold'}}>2019</span>
+                                            <span style={{ fontWeight: 'bold' }}>2019</span>
                                             <p>Our Journey started, tinkering with commodity technology, soon it grew to develop custom options market making solutions. It transitioned to help us set up a core team of enthusiastic engineers and product manager to develop our own stack of supply chain trading and risk management products and solutions.</p>
                                         </div>
                                     </div>
                                     <div class="container right">
                                         <div class="content">
-                                            <span style={{fontWeight: 'bold'}}>2020</span>
+                                            <span style={{ fontWeight: 'bold' }}>2020</span>
                                             <p>We launched our first MVP SaaS CTRM solutions</p>
                                         </div>
                                     </div>
                                     <div class="container left">
                                         <div class="content">
-                                            <span style={{fontWeight: 'bold'}}>2021</span>
+                                            <span style={{ fontWeight: 'bold' }}>2021</span>
                                             <p>Worked with some trading companies to assist in digitizing there trade and risk reporting</p>
                                         </div>
                                     </div>
                                     <div class="container right">
                                         <div class="content">
-                                            <span style={{fontWeight: 'bold'}}>2021</span>
+                                            <span style={{ fontWeight: 'bold' }}>2021</span>
                                             <p>Developed a full stack farm to supply chain connected solution for TARU.AG</p>
                                         </div>
                                     </div>
                                     <div class="container left">
                                         <div class="content">
-                                            <span style={{fontWeight: 'bold'}}>2022</span>
+                                            <span style={{ fontWeight: 'bold' }}>2022</span>
                                             <p>Won some key accounts to deliver large scale transformation project</p>
                                         </div>
                                     </div>
                                     <div class="container right">
                                         <div class="content">
-                                            <span style={{fontWeight: 'bold'}}>2023</span>
+                                            <span style={{ fontWeight: 'bold' }}>2023</span>
                                             <p>Our journey continue to innovate and bring smile to our customer with go live and new wins</p>
                                         </div>
                                     </div>
                                 </div>
 
+                                <div className=" pt-5">
+                                    <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }}>
+                                        <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
+                                        <span >Where we're Heading</span>
+                                    </a>
+                                </div>
 
-                                <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }}>
-                                    <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
-                                    <span >Where we're Heading</span>
-                                </a>
                             </div>
                         </div>
                     </div>

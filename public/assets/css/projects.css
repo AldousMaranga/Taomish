@@ -94,7 +94,9 @@
 
 .back-card {
     display: none;
-    background: linear-gradient(to bottom left, rgba(72, 0, 145, 0.8), #000000);
+    background: linear-gradient(to bottom left, rgb(3, 64, 120), #000000);
+    /* 72, 0, 145, */
+    /* #034078; */
     padding: 15px;
     border-radius: 13px;
     height: 100%;

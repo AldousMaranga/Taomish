@@ -96,7 +96,7 @@ button {
     height: 12px;
     transform: translateY(-50%);
     border-radius: 50%;
-    background: #f45b69;
+    background: #034078;
 }
 
 .timeline ol li div {
@@ -277,7 +277,7 @@ button {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #034078;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
