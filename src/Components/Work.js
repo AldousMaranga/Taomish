@@ -49,7 +49,8 @@ class Work extends Component {
                             </div>
 
                             <div className="globe">
-                                <img src='assets/images/globe.png' alt='img' className="align-bot" width='100%' height='auto'></img>
+                                <img src='assets/globe2.gif' alt='img' className="align-bot" width='100%' height='auto' style={{ borderRadius: "500px" }}></img>
+
                             </div>
                         </div>
 
@@ -81,6 +82,11 @@ class Work extends Component {
                                 <span>Reinforcement Data models and Analytics</span>
                             </h6>
 
+
+                            <div className="globe-small">
+                                <img src='assets/globe2.gif' alt='img' width='100%' height='auto' style={{ borderRadius: "500px" }}></img>
+                            </div>
+
                             <div>
                                 <a href="#projects" style={{ textDecoration: 'none', color: '#000000' }}>
                                     <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
@@ -88,9 +94,7 @@ class Work extends Component {
                                 </a>
                             </div>
 
-                            <div className="globe-small">
-                                <img src='assets/images/globe.png' alt='img' className="align-bot" width='100%' height='auto'></img>
-                            </div>
+
                         </div>
                     </div>
                 </div>

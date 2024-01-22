@@ -106,10 +106,10 @@
     padding-right: 5vw;
 }
 
-.globe-small {
+/* .globe-small {
     position: absolute;
     right: 0;
     top: 600px;
     width: calc(40vw - 10px);
     height: calc(100vh + 100px);
-}
+} */
