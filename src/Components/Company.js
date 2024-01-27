@@ -8,7 +8,7 @@ class Company extends Component {
                 <div id="company">
                     <div className="min-height p-left d-none d-lg-block company-cont">
                         <div className="company-strip text-cont">
-                            <div className="title">COMPANY'S TIMELINE</div>
+                            <div className="title">TIMELINE</div>
                             {/*  */}
                             <section class="timeline">
                                 <ol>
@@ -53,6 +53,7 @@ class Company extends Component {
                             <br />
                             <br />
 
+
                             <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }} className="company-link">
                                 <img src='assets/images/down-arrow.svg' alt='img' className="arrow-nav" />
                                 <span>Where we're Heading</span>
@@ -63,6 +64,8 @@ class Company extends Component {
                     <div className="small-screen-cont d-lg-none">
                         <div className="small-company-strip">
                             <div className="pb-5">
+
+                                <div className="title pb-3">TIMELINE</div>
 
                                 <div class="timeline-small">
                                     <div class="container left">

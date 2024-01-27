@@ -20,7 +20,7 @@ class Contact extends Component {
               </div>
 
               <div className="contact-right-side">
-                <img src="assets/images/mapp.png" alt="img" height="100%" width="auto"/>
+                <img src="assets/images/map.png" alt="img" height="100%" width="auto"/>
               </div>
 
             </div>
@@ -49,7 +49,7 @@ class Contact extends Component {
               <textarea type="text" id="message" name="message" className="form-control" />
 
               <div className="pt-3 pb-3">
-                <img src="assets/images/mapp.png" alt="img" width="100%" height="auto" />
+                <img src="assets/images/map.png" alt="img" width="100%" height="auto" />
               </div>
 
               <div>
