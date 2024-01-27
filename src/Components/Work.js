@@ -49,7 +49,7 @@ class Work extends Component {
                             </div>
 
                             <div className="globe">
-                                <img src='assets/globe2.gif' alt='img' className="align-bot" width='100%' height='auto' style={{ borderRadius: "500px" }}></img>
+                                <img src='assets/images/globe-pin.jpg' alt='img' className="align-bot" width='100%' height='auto' style={{ borderRadius: "500px" }}></img>
 
                             </div>
                         </div>
