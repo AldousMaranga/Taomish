@@ -42,9 +42,9 @@
 }
 
 .carousel-img {
-    border-top-left-radius: 200px;
+    border-top-left-radius: 150px;
     width: auto;
-    height: auto;
+    height: 100%;
 }
 
 .CCarouselItem {

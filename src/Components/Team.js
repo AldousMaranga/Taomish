@@ -27,7 +27,7 @@ class Team extends Component {
                                         <CImage className="carousel-img" src="assets/images/slide1.jpg" alt="slide 1" />
                                     </CCarouselItem>
                                     <CCarouselItem className="carousel-item">
-                                        <CImage className="carousel-img" src="assets/images/slide2.jpeg" alt="slide 2" />
+                                        <CImage className="carousel-img" src="assets/images/slide2.jpg" alt="slide 2" />
                                     </CCarouselItem>
                                     <CCarouselItem className="carousel-item">
                                         <CImage className="carousel-img" src='assets/images/slide3.jpg' alt="slide 3" />

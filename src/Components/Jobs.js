@@ -20,11 +20,12 @@ class Jobs extends Component {
                                 base, we offer associates a chance to drive change and
                                 improve the lives of millions of people arount the world.
                             </div>
-                            <hr className="pb-2"></hr>
-                            <h5 style={{fontWeight: "bold"}}>India <img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></h5>
-                            <h6 style={{textDecoration: "underline"}}>Bengaluru</h6>
-                            <h6 className="pb-3" style={{textDecoration: "underline"}}>Thiruvananthapuram</h6>
-                            <h5 className="pb-2" style={{fontWeight: "bold"}}>Singapore <img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></h5>
+                            <hr className="pb-3"></hr>
+                            <h5 className="pb-2" style={{fontWeight: "bold"}}>India </h5>
+                            <h6><a href="#">Bengaluru<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
+                            <h6 className="pb-2"><a href="#">Thiruvananthapuram<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
+                            <h5 className="pb-2" style={{fontWeight: "bold"}}>Singapore</h5>
+                            <h6><a href="#">Singapore<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
 
                         </div>
 
