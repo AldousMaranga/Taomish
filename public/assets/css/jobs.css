@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.job-strip{
+.job-strip {
     height: 10vh;
     border-right: 10px solid #fff;
     border-bottom: 10px solid #fff;
@@ -12,7 +12,7 @@
     border-bottom-right-radius: 66px;
 }
 
-.job-strip1{
+.job-strip1 {
     height: 70vh;
     border-left: 10px solid #fff;
     border-top: 10px solid #fff;
@@ -63,6 +63,26 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+.tab-button {
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.tab-content.active {
+    display: block;
 }
 
 /* @media only screen and (min-width: 768px) {
