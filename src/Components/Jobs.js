@@ -90,7 +90,7 @@ function Jobs() {
                         <h6><a className="tab-button" data-tab="tab3-small" onClick={() => openTab('tab3-small')}>Singapore<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
 
 
-                        <div className="job-strip1-small">
+                        <div className="pb-5 pt-3">
                             <div id="default-tab" class="tab-content active">Default Content</div>
                             <div id="tab1-small" class="tab-content">Content for Tab 1</div>
                             <div id="tab2-small" class="tab-content">Content for Tab 2</div>
