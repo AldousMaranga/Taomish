@@ -31,6 +31,15 @@ function Jobs() {
             <link rel="stylesheet" href="/assets/css/jobs.css" type="text/css" />
             <div id="jobs">
                 <div className="min-height p-left d-none d-lg-block job-cont">
+                    <div id="default-tab" class="tab-content active">
+                        <div className='job-placeholder'>
+                            <img src='/assets/images/job-img.jpg' alt='img' width="auto" height="500px" />
+                        </div>
+                        <div className='text-job job-text1'>
+                            Look for available jobs near you!
+                        </div>
+                    </div>
+
                     <div className="job-strip"></div>
                     <div className="job-text-cont">
                         <div className="title pb-3">JOIN US</div>
@@ -57,7 +66,6 @@ function Jobs() {
                     </div>
 
                     <div className="job-strip1">
-                        <div id="default-tab" class="tab-content active">Default Content</div>
                         <div id="tab1" class="tab-content">Content for Tab 1</div>
                         <div id="tab2" class="tab-content">Content for Tab 2</div>
                         <div id="tab3" class="tab-content">Content for Tab 3</div>
@@ -90,8 +98,13 @@ function Jobs() {
                         <h6><a className="tab-button" data-tab="tab3-small" onClick={() => openTab('tab3-small')}>Singapore<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
 
 
-                        <div className="pb-5 pt-3">
-                            <div id="default-tab" class="tab-content active">Default Content</div>
+                        <div className="job-strip1-small pb-5 pt-3">
+                            <div id="default-tab" class="tab-content active">
+                                <div className='job-text1' style={{textAlign: 'center'}}>
+                                    Jobs near you!
+                                </div>
+                                <img src='/assets/images/job-img.jpg' alt='img' width="auto" height="500px" />
+                            </div>
                             <div id="tab1-small" class="tab-content">Content for Tab 1</div>
                             <div id="tab2-small" class="tab-content">Content for Tab 2</div>
                             <div id="tab3-small" class="tab-content">Content for Tab 3</div>

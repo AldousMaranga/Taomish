@@ -3,6 +3,19 @@
     position: relative;
 }
 
+.job-placeholder {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.text-job {
+    position: absolute;
+    right: 0;
+    bottom: 500px;
+    padding-right: 5px;
+}
+
 .job-strip {
     height: 10vh;
     border-right: 10px solid #fff;
@@ -20,7 +33,19 @@
     margin-left: 45%;
     margin-top: -10px;
     border-top-left-radius: 66px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
 }
+
+.job-strip1-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .job-strip2 {
     height: 10vh;
@@ -71,15 +96,19 @@ a {
     transition: background-color 0.3s ease;
 }
 
+.tab-button:hover {
+    text-decoration: underline;
+}
+
 .tab-button.active {
     background-color: #ccc;
 }
 
 .tab-content {
     display: none;
-    padding: 20px;
-    border: 1px solid #ccc;
 }
+
+
 
 .tab-content.active {
     display: block;
@@ -97,4 +126,3 @@ a {
     padding-left: 5vw;
     padding-right: 5vw;
 }
-
