@@ -47,17 +47,18 @@ class Company extends Component {
 
 
                             </section>
-                            {/*  */}
+
                         </div>
                         <div className="company-strip1">
                             <br />
                             <br />
 
+                            <div className="arrow-nav" style={{width: "300px"}}>
+                                <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }}>
+                                    <img src='assets/images/down-arrow.svg' alt='img' width="auto" height="100px"/>
+                                    <span>Where we're Heading</span>
+                                </a></div>
 
-                            <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }} className="company-link">
-                                <img src='assets/images/down-arrow.svg' alt='img' className="arrow-nav" />
-                                <span>Where we're Heading</span>
-                            </a>
                         </div>
                     </div>
 

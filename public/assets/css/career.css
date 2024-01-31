@@ -5,8 +5,8 @@
 .career-strip{
     height: 15vh;
     width: 90%;
-    border-left: 10px solid #fff;
-    border-bottom: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
+    border-bottom: 10px solid #c5c5c5;
     border-bottom-left-radius: 66px;
     margin-right: calc(85vh - 10px);
 }
@@ -15,8 +15,8 @@
     /* display: flex;
     align-items: flex-end; */
     height: calc(85vh + 10px);
-    border-right: 10px solid #fff;
-    border-top: 10px solid #fff;
+    border-right: 10px solid #c5c5c5;
+    border-top: 10px solid #c5c5c5;
     width: 90%;
     margin-left: 5%;
     margin-top: -10px;
@@ -90,7 +90,7 @@
 /* Mobile View */
 
 .small-career-strip {
-    border-left: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
     margin-left: 5vw;
     padding-left: 5vw;
     padding-right: 5vw;

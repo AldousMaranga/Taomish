@@ -7,7 +7,7 @@
 .project-strip {
     width: 90%;
     height: 65vh;
-    border-left: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
     margin-right: calc(85vh - 10px);
     position: relative;
     overflow-x: auto;
@@ -17,14 +17,14 @@
 .project-strip1 {
     height: 10vh;
     width: 90%;
-    border-left: 10px solid #fff;
-    border-bottom: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
+    border-bottom: 10px solid #c5c5c5;
     border-bottom-left-radius: 66px;
 }
 
 .project-strip2 {
-    border-right: 10px solid #fff;
-    border-top: 10px solid #fff;
+    border-right: 10px solid #c5c5c5;
+    border-top: 10px solid #c5c5c5;
     width: 90%;
     margin-left: 5%;
     margin-top: -10px;
@@ -73,8 +73,8 @@
 }
 
 .card {
-    background: #ffffff;
-    border: 0px;
+    background: #f2f2f2;
+    border: 10px;
     box-shadow: 0 14px 55px -40px rgba(0, 0, 0, .12);
     border-radius: 13px;
     height: 35vh;
@@ -135,7 +135,7 @@
     .project-strip {
         width: 90%;
         height: 70vh;
-        border-left: 10px solid #fff;
+        border-left: 10px solid #c5c5c5;
         margin-right: calc(85vh - 10px);
         position: relative;
         overflow-x: auto;
@@ -145,14 +145,14 @@
     .project-strip1 {
         height: 10vh;
         width: 90%;
-        border-left: 10px solid #fff;
-        border-bottom: 10px solid #fff;
+        border-left: 10px solid #c5c5c5;
+        border-bottom: 10px solid #c5c5c5;
         border-bottom-left-radius: 66px;
     }
     
     .project-strip2 {
-        border-right: 10px solid #fff;
-        border-top: 10px solid #fff;
+        border-right: 10px solid #c5c5c5;
+        border-top: 10px solid #c5c5c5;
         width: 90%;
         margin-left: 5%;
         margin-top: -10px;
@@ -172,7 +172,7 @@
 }
 
 .small-project-strip {
-    border-left: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
     margin-left: 5vw;
     padding-left: -20px;
 }

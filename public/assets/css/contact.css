@@ -3,8 +3,8 @@
 }
 
 .contact-strip {
-    border-left: 10px solid #fff;
-    border-bottom: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
+    border-bottom: 10px solid #c5c5c5;
     border-bottom-left-radius: 66px;
     height: 75vh;
     width: 100%;
@@ -62,7 +62,7 @@
 
 /* Mobile View */
 .small-contact-strip {
-    border-left: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
     margin-left: 5vw;
     padding-left: 5vw;
     padding-right: 5vw;

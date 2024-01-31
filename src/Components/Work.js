@@ -40,8 +40,8 @@ class Work extends Component {
                                     <span>Reinforcement Data models and Analytics</span>
                                 </h6>
 
-                                <div>
-                                    <a href="#projects" style={{ textDecoration: 'none', color: '#000000' }}>
+                                <div className="arrow-nav" style={{width: '200px'}}>
+                                    <a href="#projects" style={{ textDecoration: 'none'}} >
                                         <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
                                         <span >Projects</span>
                                     </a>

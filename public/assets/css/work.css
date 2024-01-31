@@ -28,8 +28,8 @@
     margin-left: 100px;
     margin-right: calc(40vw - 9.5px);
     /* flex: content; */
-    border-right: 10px solid #fff;
-    border-bottom: 10px solid #fff;
+    border-right: 10px solid #c5c5c5;;
+    border-bottom: 10px solid #c5c5c5;;
     border-bottom-right-radius: 66px;
     position: relative;
 }
@@ -42,8 +42,8 @@
     margin-top: -10px;
     display: flex;
     flex-direction: column;
-    border-top: 10px solid #fff;
-    border-left: 10px solid #fff;
+    border-top: 10px solid #c5c5c5;;
+    border-left: 10px solid #c5c5c5;;
     border-top-left-radius: 66px;
 }
 
@@ -69,8 +69,8 @@
         margin-left: 100px;
         margin-right: calc(40vw - 9.5px);
         flex: content;
-        border-right: 10px solid #fff;
-        border-bottom: 10px solid #fff;
+        border-right: 10px solid #c5c5c5;;
+        border-bottom: 10px solid #c5c5c5;;
         border-bottom-right-radius: 66px;
         position: relative;
     }
@@ -83,8 +83,8 @@
         margin-top: -10px;
         display: flex;
         flex-direction: column;
-        border-top: 10px solid #fff;
-        border-left: 10px solid #fff;
+        border-top: 10px solid #c5c5c5;;
+        border-left: 10px solid #c5c5c5;;
         border-top-left-radius: 66px;
     }
 
@@ -100,7 +100,7 @@
 
 /* phone view css */
 .small-work-strip {
-    border-left: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;;
     margin-left: 5vw;
     padding-left: 5vw;
     padding-right: 5vw;

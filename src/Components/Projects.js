@@ -85,10 +85,13 @@ class Projects extends Component {
                             </div>
 
                             <div className="project-strip2 padding-top">
-                                <a href="#technology" style={{ textDecoration: 'none', color: '#000000' }}>
-                                    <img src='assets/images/down-arrow.svg' alt='img' className="arrow-nav" />
-                                    <span>Technology</span>
-                                </a>
+                                <div className="arrow-nav" style={{width: '220px'}}>
+                                    <a href="#technology" style={{ textDecoration: 'none', color: '#000000' }}>
+                                        <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
+                                        <span>Technology</span>
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
 

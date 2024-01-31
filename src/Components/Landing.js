@@ -12,7 +12,7 @@ class Landing extends Component {
 
                 <div className="min-height" id="home">
                     <div className="landing-cont">
-                        <img src="assets/taomish.gif" alt="logo" className="under-image" />
+                        <img src="assets/images/new-landing.png" alt="logo" className="under-image" />
                         <img src="assets/images/logo.png" alt="logo" height="70px" width="auto" className="over-image" />
                         <div className="over-text">
                             <div className="text1">Bridging the complexity of SaaS cloud. Simplifying the digital transformation journey</div>

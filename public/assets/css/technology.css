@@ -1,6 +1,6 @@
 .technology-strip{
     padding-bottom: 150px;
-    border-right: 10px solid #fff;
+    border-right: 10px solid #c5c5c5;
     width: 90%;
     height: 100vh;
     margin-left: 5%;
@@ -8,11 +8,19 @@
     position: relative;
 }
 
+
+.container-blue {
+    display: flex;
+    background-color: #22dbf6;
+    /* position: absolute;
+    bottom: 0; */
+    margin-left: -135px;
+    /* width: calc(90vw + 4px); */
+}
+
 .tech-img{
-    position: absolute;
-    bottom: 0;
-    width: 60%;
-    height: auto;
+    width: auto;
+    height: 400px;
 }
 
 .text-1{
@@ -21,11 +29,10 @@
 }
 
 .text-2 {
-    position: absolute;
-    width: 500px;
-    bottom: 80px;
-    right: 50px;
+    padding: 20px;
 }
+
+
 
 
 @media only screen and (max-width: 1440px) {
@@ -62,7 +69,7 @@
 
 /* Mobile View */
 .small-technology-strip {
-    border-left: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
     margin-left: 5vw;
     padding-left: 5vw;
     padding-right: 5vw;

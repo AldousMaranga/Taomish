@@ -15,7 +15,7 @@
 .over-image {
     position: absolute;
     top: 20px;
-    right: 20px;
+    left: 70px;
     z-index: 2;
 }
 
@@ -36,8 +36,8 @@
     width: 40vw;
     height: 220px;
     border-top-left-radius: 66px;
-    border-left: 10px solid #fff;
-    border-top: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;;
+    border-top: 10px solid #c5c5c5;;
 }
 
 /* Default styles for larger screens */
@@ -45,16 +45,19 @@
     font-size: 60px;
     font-weight: bold;
     line-height: 1.2;
-    color: #33FFCE;
-    text-shadow: 1px 1px 2px black;
+    /* color: #1ba1f3; */
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .text2 {
     font-size: 30px;
     font-weight: bold;
     padding-top: 20px;
-    color: #33FFCE;
-    text-shadow: 1px 1px 2px black;
+    /* color: #1ba1f3; */
+    color: white;
+
+    text-shadow: 1px 1px 1px black;
 }
 
 .bg1 {
@@ -115,7 +118,7 @@
         font-weight: bold;
         line-height: 1.2;
         color: #33FFCE;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .text2 {
@@ -123,7 +126,7 @@
         font-weight: bold;
         padding-top: 10px;
         color: #33FFCE;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .over-text {
@@ -163,7 +166,7 @@
         font-weight: bold;
         line-height: 1.2;
         color: #33FFCE;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .text2 {
@@ -171,7 +174,7 @@
         font-weight: bold;
         padding-top: 10px;
         color: #33FFCE;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .over-text {
@@ -231,7 +234,7 @@
         font-weight: bold;
         line-height: 1.2;
         color: #33FFCE;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .text2 {
@@ -239,7 +242,7 @@
         font-weight: bold;
         padding-top: 10px;
         color: #33FFCE;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .over-text {
@@ -315,7 +318,7 @@
         font-weight: bold;
         line-height: 1.2;
         color: #33FFCE;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .text2 {
@@ -323,7 +326,7 @@
         font-weight: bold;
         padding-top: 10px;
         color: #33FFCE;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .over-text {

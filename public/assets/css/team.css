@@ -3,8 +3,8 @@
 }
 
 .team-strip {
-    border-right: 10px solid #fff;
-    border-bottom: 10px solid #fff;
+    border-right: 10px solid #c5c5c5;
+    border-bottom: 10px solid #c5c5c5;
     border-bottom-right-radius: 66px;
     width: 90%;
     height: 10vh;
@@ -12,8 +12,8 @@
 }
 
 .team-strip1 {
-    border-left: 10px solid #fff;
-    border-top: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
+    border-top: 10px solid #c5c5c5;
     width: 85%;
     margin-top: -10px;
     border-top-left-radius: 66px;
@@ -83,7 +83,7 @@
 
 /* Mobile View */
 .small-team-strip {
-    border-left: 10px solid #fff;
+    border-left: 10px solid #c5c5c5;
     margin-left: 5vw;
     padding-left: 5vw;
     padding-right: 5vw;
