@@ -1,29 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 /*Navigation  & Global CSS*/
 .cont {
     display: flex;
-    justify-content: center;
-    width: 50px;
-    height: 100vh;
+    width: 100vw;
     background-color: #000000;
     position: fixed;
     z-index: 1000;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-cont {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; 
 }
 
 .nav {
-    text-decoration: none;
+    justify-content: center;
     color: #ffffff;
-    font-size: 1em;
-    padding: 10px 0px;
-    writing-mode: vertical-lr;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px
+    /* writing-mode: vertical-lr;
     transform: rotate(180deg);
     transform-origin: center;
-    white-space: nowrap;
+    white-space: nowrap; */
 }
 
+.nav-cont .nav:hover{
+    color: #22dbf6;
+}
 
 .min-height {
     height: 100vh;
-    margin-left: 20px;
     overflow: visible;
     background-color: #ffffff;
 }
@@ -45,13 +56,15 @@
 }
 
 .title {
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 10px;
 }
 
 * {
     box-sizing: border-box;
-    font-family: Montserrat, -apple-system, Roboto, Helvetica Neue, sans-serif;
+    /* font-family: Montserrat, -apple-system, Roboto, Helvetica Neue, sans-serif; */
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-family: "Montserrat";
 }
 
 .arrow-nav {

@@ -32,12 +32,12 @@ class Careers extends Component {
                                     variety of work we do, and the experience it offers, provide
                                     an unbeatable platform from which to build a career.
                                 </div>
-                                <div className="arrow-nav" style={{width: '240px', paddingRight: "20px"}}>
+                                {/* <div className="arrow-nav" style={{ width: '240px', paddingRight: "20px" }}>
                                     <a href="#jobs" style={{ textDecoration: 'none', color: '#000000' }}>
                                         <img src='assets/images/down-arrow.svg' alt='img' height="100px" width="auto" />
                                         <span>Open Positions</span>
                                     </a>
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>
@@ -66,12 +66,14 @@ class Careers extends Component {
                             </div>
                             <img alt="img" src="assets/images/career.jpg" className="career-img pb-3" />
 
-                            <div className="pb-5">
-                                <a href="#jobs" style={{ textDecoration: 'none', color: '#000000' }}>
-                                    <img src='assets/images/down-arrow.svg' alt='img' className="arrow-nav" />
-                                    <span>Open Positions</span>
-                                </a>
-                            </div>
+                            {/* <div className="pb-5">
+                                <div className="arrow-nav" style={{ width: '270px', paddingRight: "20px" }}>
+                                    <a href="#jobs" style={{ textDecoration: 'none', color: '#000000' }}>
+                                        <img src='assets/images/down-arrow.svg' alt='img' height="100px" width="auto" />
+                                        <span>Open Positions</span>
+                                    </a>
+                                </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

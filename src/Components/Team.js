@@ -34,12 +34,12 @@ class Team extends Component {
                                     </CCarouselItem>
                                 </CCarousel>
                             </div>
-                            <div className="arrow-nav" style={{ width: '200px', marginLeft: '50px'}}>
-                                <a href="#careers" style={{ textDecoration: 'none'}}>
+                            {/* <div className="arrow-nav" style={{ width: '200px', marginLeft: '50px' }}>
+                                <a href="#careers" style={{ textDecoration: 'none' }}>
                                     <img src='assets/images/down-arrow.svg' alt='img' height="100px" width="auto" />
                                     <span>Careers</span>
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -65,12 +65,14 @@ class Team extends Component {
                                 </CCarousel>
                             </div>
 
-                            <div className="pb-5">
-                                <a href="#careers" style={{ textDecoration: 'none', color: '#000000' }}>
-                                    <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
-                                    <span >Careers</span>
-                                </a>
-                            </div>
+                            {/* <div className="pb-5">
+                                <div className="arrow-nav" style={{ width: '200px', marginLeft: '50px' }}>
+                                    <a href="#careers" style={{ textDecoration: 'none' }}>
+                                        <img src='assets/images/down-arrow.svg' alt='img' height="100px" width="auto" />
+                                        <span>Careers</span>
+                                    </a>
+                                </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

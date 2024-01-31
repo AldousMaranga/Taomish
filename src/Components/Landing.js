@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { CCarousel, CCarouselItem } from '@coreui/react';
-import '@coreui/coreui/dist/css/coreui.min.css'
+// import 'react-responsive-carousel/lib/styles/carousel.min.css';
+// import { CCarousel, CCarouselItem } from '@coreui/react';
+// import '@coreui/coreui/dist/css/coreui.min.css'
 
 class Landing extends Component {
 
@@ -13,13 +13,14 @@ class Landing extends Component {
                 <div className="min-height" id="home">
                     <div className="landing-cont">
                         <img src="assets/images/new-landing.png" alt="logo" className="under-image" />
-                        <img src="assets/images/logo.png" alt="logo" height="70px" width="auto" className="over-image" />
                         <div className="over-text">
                             <div className="text1">Bridging the complexity of SaaS cloud. Simplifying the digital transformation journey</div>
+                        </div>
+                        <div className="over-text1">
                             <div className="text2">Passionate engineer and entrepreneur on quest to build better solution for tomorrow.</div>
                         </div>
 
-                        <div className="over-div">
+                        {/* <div className="over-div">
                             <CCarousel controls indicators transition="crossfade" className="custom-indicators">
                                 <CCarouselItem className="bg1">
                                     <div>
@@ -73,7 +74,7 @@ class Landing extends Component {
                                     </div>
                                 </CCarouselItem>
                             </CCarousel>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

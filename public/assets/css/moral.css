@@ -4,7 +4,7 @@
 
 .moral-strip {
     /* background-color: black; */
-    height: 60vh;
+    height: 40vh;
     /* width: calc(85vw - 76px); */
     width: 90%;
     margin-left: 66px;
@@ -21,8 +21,10 @@
 
 .moral-strip1 {
     /* background-color: blue; */
-    width: calc(85vw - 76px);
-    height: calc(40vh + 10px);
+    /* width: calc(85vw - 76px); */
+    width: 90%;
+
+    height: calc(60vh + 10px);
     margin-top: -10px;
     border-left: 10px solid #c5c5c5;
     border-top: 10px solid #c5c5c5;
@@ -33,12 +35,14 @@
 .mvo-cont {
     display: flex;
     width: 100%;
-    margin-top: -50px;
+    margin-top: -70px;
 }
 
 .mvo {
     width: 33%;
-    padding-right: 50px;
+    padding: 20px;
+    background-color: #89CFF0;
+    border-radius: 40px;
 }
 
 .mvo-header {

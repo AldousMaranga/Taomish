@@ -81,16 +81,16 @@ class Projects extends Component {
                                 </div>
                             </div>
 
-                            <div className="project-strip1">
-                            </div>
+                            {/* <div className="project-strip1">
+                            </div> */}
 
                             <div className="project-strip2 padding-top">
-                                <div className="arrow-nav" style={{width: '220px'}}>
+                                {/* <div className="arrow-nav d-none d-lg-block" style={{ width: '220px' }}>
                                     <a href="#technology" style={{ textDecoration: 'none', color: '#000000' }}>
                                         <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
                                         <span>Technology</span>
                                     </a>
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>
@@ -173,12 +173,14 @@ class Projects extends Component {
                             </div>
 
                         </div>
-                        <div className="pt-5 small-project-strip pb-5">
-                            <a href="#technology" style={{ textDecoration: 'none', color: '#000000' }}>
-                                <img src='assets/images/down-arrow.svg' alt='img' className="arrow-nav" />
-                                <span>Technology</span>
-                            </a>
-                        </div>
+                        {/* <div className="pt-5 small-project-strip pb-5">
+                            <div className="arrow-nav" style={{ width: '220px', marginLeft: '5vw' }}>
+                                <a href="#technology" style={{ textDecoration: 'none', color: '#000000' }}>
+                                    <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
+                                    <span>Technology</span>
+                                </a>
+                            </div>
+                        </div> */}
 
                     </div>
                 </div>

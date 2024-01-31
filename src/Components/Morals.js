@@ -15,7 +15,7 @@ class Morals extends Component {
 
                         <div className="moral-strip1">
                             <div className="mvo-cont">
-                                <div className="mvo">
+                                <div className="mvo" style={{marginRight: '10px'}}>
                                     <div className="mvo-header">Who we are?</div>
                                     <div className="pb-3">
                                         <span style={{ fontWeight: "bold" }}>Leaders</span> in Trading, Risk management, Technology and User experience.
@@ -26,7 +26,7 @@ class Morals extends Component {
                                         <span style={{ fontWeight: "bold" }}> human ingenuity, experience and technology innovation</span> to deliver best fit solutions.
                                     </div>
                                 </div>
-                                <div className="mvo">
+                                <div className="mvo" style={{marginRight: '10px'}}>
                                     <div className="mvo-header">Our Mission</div>
                                     <div className="pb-3">
                                         Digitalise the supply chain with our Seamless, Ingenuine and Smart solutions helping our customers scale.

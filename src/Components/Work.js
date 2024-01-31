@@ -40,17 +40,16 @@ class Work extends Component {
                                     <span>Reinforcement Data models and Analytics</span>
                                 </h6>
 
-                                <div className="arrow-nav" style={{width: '200px'}}>
+                                {/* <div className="arrow-nav" style={{width: '200px'}}>
                                     <a href="#projects" style={{ textDecoration: 'none'}} >
                                         <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
                                         <span >Projects</span>
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
 
                             <div className="globe">
                                 <img src='assets/images/globe-pin.jpg' alt='img' className="align-bot" width='100%' height='auto' style={{ borderRadius: "500px" }}></img>
-
                             </div>
                         </div>
 
@@ -60,7 +59,7 @@ class Work extends Component {
                             <div className="title pt-5">WORK</div>
                             <div className='worktext pt-3'>
                                 We manage all technical aspects of software product
-                                development includes design the software or daata
+                                development includes design the software or data
                                 architecture, perform the engineering – low code development,
                                 automation and systems integration – and manage technical
                                 operations
@@ -84,15 +83,16 @@ class Work extends Component {
 
 
                             <div className="globe-small">
-                                <img src='assets/globe2.gif' alt='img' width='100%' height='auto' style={{ borderRadius: "500px" }}></img>
+                                <img src='assets/images/globe-pin.jpg' alt='img' width='100%' height='auto' style={{ borderRadius: "500px" }}></img>
                             </div>
 
-                            <div>
+
+                            {/* <div>
                                 <a href="#projects" style={{ textDecoration: 'none', color: '#000000' }}>
                                     <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
                                     <span >Projects</span>
                                 </a>
-                            </div>
+                            </div> */}
 
 
                         </div>

@@ -50,14 +50,15 @@ class Company extends Component {
 
                         </div>
                         <div className="company-strip1">
-                            <br />
+                            {/* <br />
                             <br />
 
-                            <div className="arrow-nav" style={{width: "300px"}}>
+                            <div className="arrow-nav" style={{ width: "300px" }}>
                                 <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }}>
-                                    <img src='assets/images/down-arrow.svg' alt='img' width="auto" height="100px"/>
+                                    <img src='assets/images/down-arrow.svg' alt='img' width="auto" height="100px" />
                                     <span>Where we're Heading</span>
-                                </a></div>
+                                </a>
+                            </div> */}
 
                         </div>
                     </div>
@@ -107,12 +108,12 @@ class Company extends Component {
                                     </div>
                                 </div>
 
-                                <div className=" pt-5">
+                                {/* <div className=" pt-5">
                                     <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }}>
                                         <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
                                         <span >Where we're Heading</span>
                                     </a>
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>

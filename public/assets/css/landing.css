@@ -12,22 +12,23 @@
     width: 100%;
 }
 
-.over-image {
-    position: absolute;
-    top: 20px;
-    left: 70px;
-    z-index: 2;
-}
-
 .over-text {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 7%;
     z-index: 2;
     width: 48%;
 }
 
-.over-div {
+.over-text1 {
+    position: absolute;
+    bottom: 15%;
+    left: 7%;
+    z-index: 2;
+    width: 90%;
+}
+
+/* .over-div {
     position: absolute;
     display: flex;
     bottom: 0px;
@@ -38,12 +39,12 @@
     border-top-left-radius: 66px;
     border-left: 10px solid #c5c5c5;;
     border-top: 10px solid #c5c5c5;;
-}
+} */
 
 /* Default styles for larger screens */
 .text1 {
     font-size: 60px;
-    font-weight: bold;
+    font-weight: bolder;
     line-height: 1.2;
     /* color: #1ba1f3; */
     color: white;
@@ -56,11 +57,10 @@
     padding-top: 20px;
     /* color: #1ba1f3; */
     color: white;
-
     text-shadow: 1px 1px 1px black;
 }
 
-.bg1 {
+/* .bg1 {
     border-top-left-radius: 55px;
     background-color: #034078;
     padding: 3em 5em;
@@ -110,14 +110,14 @@
 .carousel-control-next-icon, .carousel-control-prev-icon {
     color: #000000;
 
-}
+} */
 
 @media only screen and (max-width: 1440px) {
     .text1 {
-        font-size: 50px;
+        font-size: 55px;
         font-weight: bold;
         line-height: 1.2;
-        color: #33FFCE;
+        color: #ffffff;
         text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
@@ -125,19 +125,31 @@
         font-size: 25px;
         font-weight: bold;
         padding-top: 10px;
-        color: #33FFCE;
+        color: #ffffff;
         text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .over-text {
         position: absolute;
-        top: 15%;
-        left: 60px;
+        top: 18%;
+        left: 100px;
         z-index: 2;
-        width: 50%;
+        width: 45%;
     }
 
-    .over-div {
+    .over-text1 {
+        position: absolute;
+        bottom: 10%;
+        left: 100px;
+        z-index: 2;
+        width: 90%;
+    }
+
+    /* .over-text1 {
+
+    } */
+
+    /* .over-div {
         position: absolute;
         display: flex;
         bottom: 0px;
@@ -149,7 +161,7 @@
         border-left: 10px solid #fff;
         border-top: 10px solid #fff;
         border-bottom: 10px solid #fff;
-    }
+    } */
 
 
 }
@@ -165,7 +177,7 @@
         font-size: 45px;
         font-weight: bold;
         line-height: 1.2;
-        color: #33FFCE;
+        color: #ffffff;
         text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
@@ -173,19 +185,27 @@
         font-size: 20px;
         font-weight: bold;
         padding-top: 10px;
-        color: #33FFCE;
+        color: #ffffff;
         text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .over-text {
         position: absolute;
-        top: 15%;
-        left: 60px;
+        top: 20%;
+        left: 100px;
         z-index: 2;
-        width: 50%;
+        width: 45%;
     }
 
-    .over-div {
+    .over-text1 {
+        position: absolute;
+        bottom: 10%;
+        left: 100px;
+        z-index: 2;
+        width: 85%;
+    }
+
+    /* .over-div {
         position: absolute;
         display: flex;
         bottom: 0px;
@@ -202,7 +222,7 @@
     .img-div {
         height: 120px;
         width: auto;
-    }
+    } */
 
 }
 
@@ -233,7 +253,7 @@
         font-size: 40px;
         font-weight: bold;
         line-height: 1.2;
-        color: #33FFCE;
+        color: #ffffff;
         text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
@@ -241,19 +261,27 @@
         font-size: 20px;
         font-weight: bold;
         padding-top: 10px;
-        color: #33FFCE;
+        color: #ffffff;
         text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .over-text {
         position: absolute;
         top: 15%;
-        left: 60px;
+        left: 70px;
         z-index: 2;
         width: 50%;
     }
 
-    .over-div {
+    .over-text1 {
+        position: absolute;
+        bottom: 10%;
+        left: 70px;
+        z-index: 2;
+        width: 85%;
+    }
+
+    /* .over-div {
         position: absolute;
         display: flex;
         bottom: 0px;
@@ -302,7 +330,7 @@
         width: 100%;
         height: 161px;
         color: white;
-    }
+    } */
 
 }
 
@@ -317,7 +345,7 @@
         font-size: 30px;
         font-weight: bold;
         line-height: 1.2;
-        color: #33FFCE;
+        color: #ffffff;
         text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
@@ -325,19 +353,27 @@
         font-size: 15px;
         font-weight: bold;
         padding-top: 10px;
-        color: #33FFCE;
+        color: #ffffff;
         text-shadow: 1px 1px 2px #c5c5c5;;
     }
 
     .over-text {
         position: absolute;
         top: 15%;
-        left: 60px;
+        left: 70px;
         z-index: 2;
-        width: 75%;
+        width: 40%;
     }
 
-    .over-div {
+    .over-text1 {
+        position: absolute;
+        bottom: 10%;
+        left: 70px;
+        z-index: 2;
+        width: 80%;
+    }
+
+    /* .over-div {
         position: absolute;
         display: flex;
         bottom: 0px;
@@ -386,5 +422,5 @@
         width: 100%;
         height: calc(250px - 20px);
         color: white;
-    }
+    } */
 }
