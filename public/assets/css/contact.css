@@ -18,6 +18,11 @@
     font-weight: bolder;
 }
 
+.white-text {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
 .contact-box {
     padding: 7vh;
     display: flex;
@@ -27,9 +32,13 @@
     display: inline-block;
     width: 500px;
     padding: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: #fff !important;
     border-radius: 50px;
-    background-image: url('/public/assets/images/bldg.png');
+    /* background-image: url('/public/assets/images/bldg.png'); */
+    /* background: linear-gradient(to left, #ffaf7b 0%, #d76d77 50%, #3a1c71 100%); */
+    background: linear-gradient(to left, #44ffd3 0%, #1ca8f4 50%, #034078 100%);
+    
 }
 
 .contact-right-side {
@@ -40,6 +49,7 @@
 
 div strong {
     color: #034078;
+    font-size: 18px;
 }
 
 .contact-img {

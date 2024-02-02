@@ -8,7 +8,19 @@
     height: 100vh;
 }
 
-.img {
+.img-btn {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to left, #44ffd3 0%, #1ca8f4 50%, #034078 100%);
+    color: white;
+    border: #fff !important;
+    text-shadow: 1px 1px 1px black;
+}
+
+.tab-img {
+    display: none;
     position: relative;
     z-index: 1;
     object-fit: cover;
@@ -21,7 +33,29 @@
     left: 150px;
     top: 100px;
     z-index: 2;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.map-header {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.inner-map-div {
+    /* border: 1px solid black; */
+    /* border-bottom: 1px solid black; */
     padding: 15px;
     background-color: #c5c5c5;
-    width: 20vw;
+    margin-bottom: 10px;
+
+
+}
+
+.bg-img {
+    background-image: url('/public/assets/images/bldg.png');
 }

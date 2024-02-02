@@ -12,8 +12,8 @@ class Contact extends Component {
               <div className="contact-box">
 
                 <div className="contact-left-side">
-                  <div className="title pb-1">CONTACT US!</div>
-                  <div className="contact-text pb-3">
+                  <div className="title pb-1 white-text">CONTACT US!</div>
+                  <div className="contact-text pb-3 white-text">
                     Feel free to ask and we'll get back to you
                   </div>
                   <input type="text" id="name" name="name" placeholder="Full Name" className="form-control mb-3" />
