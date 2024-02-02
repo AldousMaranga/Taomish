@@ -57,6 +57,20 @@ div strong {
     height: auto;
 }
 
+.button {
+    /* cursor: pointer; */
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 15px;
+    /* background: linear-gradient(to left, #44ffd3 0%, #1ca8f4 50%, #034078 100%); */
+    background-color: black;
+    color: white;
+    border: #fff !important;
+    text-shadow: 1px 1px 1px black;
+    width: 100px;
+}
+
+
 .footer-cont {
     padding-top: 5vh;
 
@@ -76,6 +90,7 @@ div strong {
 /* Mobile View */
 .small-contact-strip {
     border-left: 10px solid #c5c5c5;
+    
     margin-left: 5vw;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -83,8 +98,11 @@ div strong {
 
 .contact-small-side {
     padding: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50px;
+    border: #fff !important;
+    background: linear-gradient(to left, #44ffd3 0%, #1ca8f4 50%, #034078 100%);
+
 }
 
 .contact-small-side1 {

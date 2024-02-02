@@ -11,7 +11,9 @@
 
 .container-blue {
     display: flex;
-    background-color: #22dbf6;
+    /* background-color: #22dbf6; */
+    background: linear-gradient(to left, #44ffd3 0%, #1ca8f4 50%, #034078 100%);
+
     /* position: absolute;
     bottom: 0; */
     margin-left: -170px;
@@ -30,6 +32,9 @@
 
 .text-2 {
     padding: 20px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center vertically */
 }
 
 

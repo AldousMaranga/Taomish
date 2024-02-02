@@ -27,20 +27,9 @@
     position: relative;
 }
 
-/* .section SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.section {
-    background: #f45b69;
-    padding: 50px 0;
-}
-
-.section h1 {
-    font-size: 2.5rem;
-}
-
-.section h2 {
-    font-size: 1.3rem;
+hr {
+    border-top:1px dotted #000;
+    /*Rest of stuff here*/
 }
 
 /* TIMELINE
@@ -50,7 +39,7 @@
     white-space: nowrap;
     overflow-y: hidden;
     overflow-x: scroll;
-    height: 430px;
+    height: 480px;
     margin-top: -50px;
 }
 
@@ -99,8 +88,9 @@
     padding: 15px;
     font-size: 1rem;
     white-space: normal;
-    color: black;
-    background: white;
+    color: white;
+    /* background: white; */
+    background-color: #034078;
 }
 
 .timeline ol li div::before {
@@ -111,6 +101,7 @@
     width: 0;
     height: 0;
     border-style: solid;
+
 }
 
 .timeline ol li:nth-child(odd) div {
@@ -121,7 +112,7 @@
 .timeline ol li:nth-child(odd) div::before {
     top: 100%;
     border-width: 8px 8px 0 0;
-    border-color: white transparent transparent transparent;
+    border-color: #034078 transparent transparent transparent;
 }
 
 .timeline ol li:nth-child(even) div {
@@ -131,7 +122,7 @@
 .timeline ol li:nth-child(even) div::before {
     top: -8px;
     border-width: 8px 0 0 8px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent #034078;
 }
 
 .timeline time {

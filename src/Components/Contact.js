@@ -16,10 +16,12 @@ class Contact extends Component {
                   <div className="contact-text pb-3 white-text">
                     Feel free to ask and we'll get back to you
                   </div>
-                  <input type="text" id="name" name="name" placeholder="Full Name" className="form-control mb-3" />
+                  <input type="text" id="name" nbrme="name" placeholder="Full Name" className="form-control mb-3" />
                   <input type="email" id="email" name="email" placeholder="Email Address" className="form-control mb-3" />
                   <input type="text" id="contact" name="contact" placeholder="Contact Number" className="form-control mb-3" />
-                  <textarea type="text" id="message" name="message" className="form-control" />
+                  <textarea type="text" id="message" name="message" className="form-control mb-3" />
+                  <button className="button">Submit</button>
+
                 </div>
 
                 <div className="contact-right-side">
@@ -28,7 +30,6 @@ class Contact extends Component {
                   <div><strong>MOBILE </strong>+91 74833 04583</div>
                   <div><strong>EMAIL </strong>hey@taomish.com</div>
                   <img src="assets/images/contact.svg" alt="img" className="contact-img pt-3" />
-
                 </div>
 
               </div>
@@ -51,15 +52,17 @@ class Contact extends Component {
           {/* small view footer */}
           <div className="small-screen-cont d-lg-none">
             <div className="small-contact-strip">
+
               <div className="contact-small-side">
-                <div className="title pb-1">CONTACT US!</div>
-                <div className="contact-text pb-3">
+                <div className="title pb-1 white-text">CONTACT US!</div>
+                <div className="contact-text pb-3 white-text">
                   Feel free to ask and we'll get back to you
                 </div>
                 <input type="text" id="name" name="name" placeholder="Full Name" className="form-control mb-3" />
                 <input type="email" id="email" name="email" placeholder="Email Address" className="form-control mb-3" />
                 <input type="text" id="contact" name="contact" placeholder="Contact Number" className="form-control mb-3" />
-                <textarea type="text" id="message" name="message" className="form-control" />
+                <textarea type="text" id="message" name="message" className="form-control mb-3" />
+                <button className="button">Submit</button>
               </div>
 
               <div className="contact-small-side1">
@@ -68,7 +71,6 @@ class Contact extends Component {
                 <div><strong>MOBILE </strong>+91 74833 04583</div>
                 <div><strong>EMAIL </strong>hey@taomish.com</div>
                 <img src="assets/images/contact.svg" alt="img" className="contact-img pt-3" />
-
               </div>
 
               <div>
