@@ -11,6 +11,7 @@ import Projects from './Components/Projects';
 import Technology from './Components/Technology';
 import Jobs from './Components/Jobs';
 import Morals from './Components/Morals';
+import Map from './Components/Map';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Jobs />
         <Company />
         <Morals />
+        <Map />
         <Contact />
       </div>
 

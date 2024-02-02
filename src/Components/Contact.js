@@ -6,22 +6,33 @@ class Contact extends Component {
       <html>
         <link rel="stylesheet" href="/assets/css/contact.css" type="text/css" />
         <div id="contact">
-          <div className="min-height p-left d-none d-lg-block contact-cont">
+          <div className="p-left d-none d-lg-block">
             <div className="contact-strip">
-              <div className="contact-left-side">
-                <div className="title">CONTACT</div>
-                <div className="contact-text">
-                  Feel free to ask and we'll get back to you
+
+              <div className="contact-box">
+
+                <div className="contact-left-side">
+                  <div className="title pb-1">CONTACT US!</div>
+                  <div className="contact-text pb-3">
+                    Feel free to ask and we'll get back to you
+                  </div>
+                  <input type="text" id="name" name="name" placeholder="Full Name" className="form-control mb-3" />
+                  <input type="email" id="email" name="email" placeholder="Email Address" className="form-control mb-3" />
+                  <input type="text" id="contact" name="contact" placeholder="Contact Number" className="form-control mb-3" />
+                  <textarea type="text" id="message" name="message" className="form-control" />
                 </div>
-                <input type="text" id="name" name="name" placeholder="Full Name" className="form-control mb-3" />
-                <input type="email" id="email" name="email" placeholder="Email Address" className="form-control mb-3" />
-                <input type="text" id="contact" name="contact" placeholder="Contact Number" className="form-control mb-3" />
-                <textarea type="text" id="message" name="message" className="form-control" />
+
+                <div className="contact-right-side">
+                  <div className="contact-text pb-3">Contact Information</div>
+                  <div><strong>TELEPHONE </strong>+91 80 4160 2823</div>
+                  <div><strong>MOBILE </strong>+91 74833 04583</div>
+                  <div><strong>EMAIL </strong>hey@taomish.com</div>
+                  <img src="assets/images/contact.svg" alt="img" className="contact-img pt-3" />
+
+                </div>
+
               </div>
 
-              <div className="contact-right-side">
-                <img src="assets/images/mapp.png" alt="img" height="100%" width="auto"/>
-              </div>
 
             </div>
 
@@ -37,19 +48,27 @@ class Contact extends Component {
             </div>
           </div>
 
+          {/* small view footer */}
           <div className="small-screen-cont d-lg-none">
             <div className="small-contact-strip">
-              <div className="title pt-5 pb-3">CONTACT</div>
-              <div className="contact-text pb-3">
-                Feel free to ask and we'll get back to you
+              <div className="contact-small-side">
+                <div className="title pb-1">CONTACT US!</div>
+                <div className="contact-text pb-3">
+                  Feel free to ask and we'll get back to you
+                </div>
+                <input type="text" id="name" name="name" placeholder="Full Name" className="form-control mb-3" />
+                <input type="email" id="email" name="email" placeholder="Email Address" className="form-control mb-3" />
+                <input type="text" id="contact" name="contact" placeholder="Contact Number" className="form-control mb-3" />
+                <textarea type="text" id="message" name="message" className="form-control" />
               </div>
-              <input type="text" id="name" name="name" placeholder="Full Name" className="form-control mb-3" />
-              <input type="email" id="email" name="email" placeholder="Email Address" className="form-control mb-3" />
-              <input type="text" id="contact" name="contact" placeholder="Contact Number" className="form-control mb-3" />
-              <textarea type="text" id="message" name="message" className="form-control" />
 
-              <div className="pt-3 pb-3">
-                <img src="assets/images/mapp.png" alt="img" width="100%" height="auto" />
+              <div className="contact-small-side1">
+                <div className="contact-text pb-3">Contact Information</div>
+                <div><strong>TELEPHONE </strong>+91 80 4160 2823</div>
+                <div><strong>MOBILE </strong>+91 74833 04583</div>
+                <div><strong>EMAIL </strong>hey@taomish.com</div>
+                <img src="assets/images/contact.svg" alt="img" className="contact-img pt-3" />
+
               </div>
 
               <div>

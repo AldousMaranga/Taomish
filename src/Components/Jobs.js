@@ -46,13 +46,13 @@ function Jobs() {
                         <div className="job-text1 pb-2">
                             Shape the future of technology
                         </div>
-                        <div className="job-text2 pb-2">
+                        <div className="job-text2 pb-1">
                             As a global company with unparalleled scale, a track record
                             of pioneering innovation, and a huge and influential client
                             base, we offer associates a chance to drive change and
                             improve the lives of millions of people arount the world.
                         </div>
-                        <hr className="pb-3"></hr>
+                        <hr className="pb-1"></hr>
                         <h5 className="pb-2" style={{ fontWeight: "bold" }}>India </h5>
 
                         <h6><a className="tab-button" data-tab="tab1" onClick={() => openTab('tab1')}>Bengaluru<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>

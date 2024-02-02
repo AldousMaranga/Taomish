@@ -1,0 +1,27 @@
+.map-cont {
+    position: relative;
+    height: 100vh;
+}
+
+.map-strip {
+    border-left: 10px solid #c5c5c5;
+    height: 100vh;
+}
+
+.img {
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.map-div {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    z-index: 2;
+    padding: 15px;
+    background-color: #c5c5c5;
+    width: 20vw;
+}

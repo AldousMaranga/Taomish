@@ -10,9 +10,8 @@ const Navigation = () => {
                     <a href="#team" className="nav">Team</a>
                     <a href="#careers" className="nav">Careers</a>
                     <a href="#company" className="nav">Company</a>
-                    <a href="#contact" className="nav">Contact</a>
+                    <a href="#map" className="nav">Contact</a>
                 </div>
-
             </div>
 
 

@@ -23,9 +23,9 @@
 
 
 .work-strip {
-    height: 30vh;
+    height: 20vh;
     padding-right: 16px;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-right: calc(40vw - 9.5px);
     /* flex: content; */
     border-right: 10px solid #c5c5c5;;
@@ -38,7 +38,7 @@
     max-width: calc(60vw - 225px + 10px);
     padding-right: 16px;
     padding-left: 50px;
-    height: calc(70vh + 10px);
+    height: calc(80vh + 10px);
     margin-top: -10px;
     display: flex;
     flex-direction: column;

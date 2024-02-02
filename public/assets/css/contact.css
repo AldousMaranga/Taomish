@@ -6,7 +6,7 @@
     border-left: 10px solid #c5c5c5;
     border-bottom: 10px solid #c5c5c5;
     border-bottom-left-radius: 66px;
-    height: 75vh;
+    /* height: 90vh; */
     width: 100%;
     /* padding-top: 75px; */
     display: flex;
@@ -14,20 +14,37 @@
 }
 
 .contact-text {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.contact-box {
+    padding: 7vh;
+    display: flex;
 }
 
 .contact-left-side {
     display: inline-block;
     width: 500px;
-    padding-right: 50px;
-    padding-top: 15vh;
-    margin-left: -100px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: url('/public/assets/images/bldg.png');
 }
 
 .contact-right-side {
     display: inline-block;
+    width: 650px;
+    padding: 50px;
+}
+
+div strong {
+    color: #034078;
+}
+
+.contact-img {
+    width: 100%;
+    height: auto;
 }
 
 .footer-cont {
@@ -46,24 +63,70 @@
     font-weight: bolder;
 }
 
-@media only screen and (max-width: '1440px') {
-    .contact-left-side {
-        display: inline-block;
-        width: 200px;
-        padding-right: 50px;
-        padding-top: 50px;
-        margin-left: -50px;
-    }
-    
-    .contact-right-side {
-        display: inline-block;
-    }
-}
-
 /* Mobile View */
 .small-contact-strip {
     border-left: 10px solid #c5c5c5;
     margin-left: 5vw;
     padding-left: 5vw;
     padding-right: 5vw;
+}
+
+.contact-small-side {
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.contact-small-side1 {
+    padding: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+@media only screen and (max-width: 1440px) {
+
+
+    .contact-text {
+        font-size: 18px;
+    }
+
+    .contact-left-side {
+        display: inline-block;
+        width: 400px;
+        padding: 50px;
+        border: 1px solid black;
+        border-radius: 50px;
+    }
+
+    .contact-right-side {
+        display: inline-block;
+        width: 550px;
+        padding: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+    .contact-text {
+        font-size: 18px;
+    }
+
+    .contact-left-side {
+        display: inline-block;
+        width: 350px;
+        padding: 50px;
+        border: 1px solid black;
+        border-radius: 50px;
+    }
+
+    .contact-right-side {
+        display: inline-block;
+        width: 450px;
+        padding: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
 }
