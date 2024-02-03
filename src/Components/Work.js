@@ -12,33 +12,38 @@ class Work extends Component {
                     <div className="min-height p-left d-none d-lg-block">
                         <div className='work-cont'>
                             <div className="work-strip ">
-                                <div className="title transform">WORK</div>
                             </div>
 
                             <div className="work-strip1" style={{ paddingTop: "2em" }}>
-                                <div className='worktext'>
-                                    We manage all technical aspects of software product
-                                    development includes design the software or daata
-                                    architecture, perform the engineering – low code development,
-                                    automation and systems integration – and manage technical
-                                    operations
+                                <div className="worktexts-cont">
+                                    <div className="title pb-3">WORK</div>
+                                    <div className='worktext'>
+                                        We manage all technical aspects of software product
+                                        development includes design the software or daata
+                                        architecture, perform the engineering – low code development,
+                                        automation and systems integration – and manage technical
+                                        operations
+                                    </div>
+                                    <div className="worklist-cont margin-top">
+                                        <h6 className="worklist">
+                                            <img src='assets/images/arrow-right.svg' alt="img" />
+                                            <span>Digital Consulting</span>
+                                        </h6>
+                                        <h6 className="worklist">
+                                            <img src='assets/images/arrow-right.svg' alt="img" />
+                                            <span>Product Engineering</span>
+                                        </h6>
+                                        <h6 className="worklist">
+                                            <img src='assets/images/arrow-right.svg' alt="img" />
+                                            <span>Vulnerability & Security consulting</span>
+                                        </h6>
+                                        <h6 className="worklist">
+                                            <img src='assets/images/arrow-right.svg' alt="img" />
+                                            <span>Reinforcement Data models and Analytics</span>
+                                        </h6>
+                                    </div>
                                 </div>
-                                <h6 className="worklist">
-                                    <img src='assets/images/arrow-right.svg' alt="img" />
-                                    <span>Digital Consulting</span>
-                                </h6>
-                                <h6 className="worklist">
-                                    <img src='assets/images/arrow-right.svg' alt="img" />
-                                    <span>Product Engineering</span>
-                                </h6>
-                                <h6 className="worklist">
-                                    <img src='assets/images/arrow-right.svg' alt="img" />
-                                    <span>Vulnerability & Security consulting</span>
-                                </h6>
-                                <h6 className="worklist padding-bottom">
-                                    <img src='assets/images/arrow-right.svg' alt="img" />
-                                    <span>Reinforcement Data models and Analytics</span>
-                                </h6>
+
 
                                 {/* <div className="arrow-nav" style={{width: '200px'}}>
                                     <a href="#projects" style={{ textDecoration: 'none'}} >

@@ -40,6 +40,9 @@ function Map() {
         <div className="min-height p-left d-none d-lg-block map-cont">
           <div className="map-strip">
 
+            <div className='title map-title'>Our Presence Worldwide</div>
+
+
             <div className="map-div">
 
               <div className='inner-map-div'>

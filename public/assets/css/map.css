@@ -28,15 +28,29 @@
     width: 100%;
 }
 
+
+.map-title{
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    z-index: 2;
+    text-shadow: 1px 1px 1px white;
+    
+}
+
 .map-div {
     position: absolute;
     left: 150px;
-    top: 100px;
+    top: 150px;
     z-index: 2;
     width: 300px;
     max-height: 400px;
     overflow-y: scroll;
 }
+
+/* .map-div-scroll {
+    
+} */
 
 .map-header {
     font-size: 25px;
