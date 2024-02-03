@@ -68,7 +68,8 @@
 
 .job-text-cont {
     width: 40%;
-    height: 90vh;
+    height: 70vh;
+    overflow-y: auto;
     position: absolute;
     left: 70px;
     padding-left: 80px;
@@ -126,3 +127,4 @@ a {
     padding-left: 5vw;
     padding-right: 5vw;
 }
+
