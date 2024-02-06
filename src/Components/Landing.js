@@ -9,18 +9,18 @@ class Landing extends Component {
         return (
             <html>
                 <link rel="stylesheet" href="/assets/css/landing.css" type="text/css" />
+                <body>
+                    <div className="min-height" id="home">
+                        <div className="landing-cont">
+                            <img src="assets/images/new-landing.png" alt="logo" className="under-image" />
+                            <div className="over-text">
+                                <div className="text1">Bridging the complexity of SaaS cloud. Simplifying the digital transformation journey</div>
+                            </div>
+                            <div className="over-text1">
+                                <div className="text2">Passionate engineer and entrepreneur on quest to build better solution for tomorrow.</div>
+                            </div>
 
-                <div className="min-height" id="home">
-                    <div className="landing-cont">
-                        <img src="assets/images/new-landing.png" alt="logo" className="under-image" />
-                        <div className="over-text">
-                            <div className="text1">Bridging the complexity of SaaS cloud. Simplifying the digital transformation journey</div>
-                        </div>
-                        <div className="over-text1">
-                            <div className="text2">Passionate engineer and entrepreneur on quest to build better solution for tomorrow.</div>
-                        </div>
-
-                        {/* <div className="over-div">
+                            {/* <div className="over-div">
                             <CCarousel controls indicators transition="crossfade" className="custom-indicators">
                                 <CCarouselItem className="bg1">
                                     <div>
@@ -76,8 +76,9 @@ class Landing extends Component {
                             </CCarousel>
                         </div> */}
 
+                        </div>
                     </div>
-                </div>
+                </body>
             </html>
 
         )

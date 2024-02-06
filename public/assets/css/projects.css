@@ -107,6 +107,13 @@
     height: 100%;
 }
 
+.card-back {
+    width: auto;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-left: 25px
+}
+
 .card:hover{
     transform: translateY(-20px);
 }
