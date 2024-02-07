@@ -1,47 +1,60 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Navigation = () => {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 0;
+            if (isScrolled !== scrolled) {
+                setScrolled(isScrolled);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [scrolled]);
+
     return (
-        <html>
-            <body>
-                <div className='d-none d-lg-block'>
-                    <div className="cont">
-                        <a href="#home"><img src="assets/images/logo.png" alt="logo" height="30px" width="auto" style={{ margin: '10px 0px', paddingRight: '100px' }} /></a>
-                        <div className='nav-cont'>
-                            <a href="#work" className="nav">WORK</a>
-                            <a href="#team" className="nav">TEAM</a>
-                            <a href="#careers" className="nav">CAREERS</a>
-                            <a href="#company" className="nav">COMPANY</a>
-                            <a href="#map" className="nav">CONTACT</a>
-                        </div>
+        <header className={scrolled ? 'scrolled' : ''}>
+            <div className='d-none d-lg-block'>
+                <div className="cont">
+                    <a href="#home"><img src="assets/images/logo.png" alt="logo" height="30px" width="auto" style={{ margin: '10px 0px', paddingRight: '100px' }} /></a>
+                    <div className='nav-cont'>
+                        <a href="#work" className="nav">WORK</a>
+                        <a href="#team" className="nav">TEAM</a>
+                        <a href="#careers" className="nav">CAREERS</a>
+                        <a href="#company" className="nav">COMPANY</a>
+                        <a href="#map" className="nav">CONTACT</a>
+
+                        
                     </div>
-
-
-                    <div className='right-nav'>
-                        <div className='collapsible'>
-                            <div className='collapsible-header'>
-                                <img src='assets/images/collapsible-arrow.svg' alt='img' height="auto" width="50px" className='arrow-img' />
-                            </div>
-                            <div className='collapsible-content'>
-                                <a href="https://www.xceler.ai/" target="_blank" className='img-link'>
-                                    <img src='assets/images/xceler.png' alt='img' width="200px" height="auto" />
-                                </a>
-                                <div className='link-description pb-3'>Xceler.ai</div>
-
-                                <a href="https://taru.ag/" target="_blank" className='img-link'>
-                                    <img src='assets/images/taru.png' alt='img' width="200px" height="auto" />
-                                </a>
-                                <div className='link-description' style={{ marginBottom: '-20px' }}>Taru.ag</div>
-
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
-            </body>
-        </html>
 
+                <div className='right-nav'>
+                    <div className='collapsible'>
+                        <div className='collapsible-header'>
+                            <img src='assets/images/collapsible-arrow.svg' alt='img' height="auto" width="50px" className='arrow-img' />
+                        </div>
+                        <div className='collapsible-content'>
+                            <a href="https://www.xceler.ai/" target="_blank" className='img-link'>
+                                <img src='assets/images/xceler.png' alt='img' width="200px" height="auto" />
+                            </a>
+                            <div className='link-description pb-3'>Xceler.ai</div>
+
+                            <a href="https://taru.ag/" target="_blank" className='img-link'>
+                                <img src='assets/images/taru.png' alt='img' width="200px" height="auto" />
+                            </a>
+                            <div className='link-description' style={{ marginBottom: '-20px' }}>Taru.ag</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
     );
 };
 

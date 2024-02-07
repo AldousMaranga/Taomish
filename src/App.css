@@ -14,18 +14,25 @@
 .cont {
     display: flex;
     width: 100vw;
-    background-color: #000000;
+    background-color: #002147;
     position: fixed;
     z-index: 1000;
     padding-left: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 70px;
+}
+
+.scrolled .cont {
+    background-color: #000000;
+    /* Change the background color when scrolled */
 }
 
 .nav-cont {
     display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; 
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
 
 }
 
@@ -41,7 +48,7 @@
     /* font-weight: bold; */
 }
 
-.nav-cont .nav:hover{
+.nav-cont .nav:hover {
     color: #22dbf6;
 }
 
@@ -84,9 +91,9 @@
 
 
 .arrow-nav {
-   background-color: #30e489;
-   padding: 10px;
-   border-radius: 30px;
+    background-color: #30e489;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 
@@ -99,20 +106,22 @@
     /* width: 600px; */
     position: fixed;
     right: 0;
+    /* bottom: 0; */
     z-index: 2000;
     display: flex;
     justify-content: flex-end;
+    /* flex-direction: column; */
 }
 
 .collapsible-header {
     cursor: pointer;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
     align-items: center;
     display: block;
     width: 70px;
     height: 70px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
     transition: transform 1s ease;
 }
 
@@ -120,7 +129,7 @@
     display: none;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    border-bottom-left-radius: 25px;
+    /* border-bottom-left-radius: 25px; */
 }
 
 .img-link {
@@ -135,6 +144,11 @@
 
 .collapsible:hover .collapsible-content {
     display: block;
+}
+
+.collapsible:hover .collapsible-header {
+    background-color: rgba(0, 0, 0, 0.7);
+
 }
 
 .collapsible:hover .arrow-img {

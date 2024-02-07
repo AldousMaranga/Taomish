@@ -63,7 +63,7 @@ class Technology extends Component {
 
                         <div className="small-screen-cont d-lg-none">
                             <div className="small-technology-strip">
-                                <div className="title" style={{ paddingTop: "700px" }}>
+                                <div className="title" style={{ paddingTop: "70px" }}>
                                     TECHNOLOGY
                                 </div>
                                 <div className="text-1-small">
@@ -79,7 +79,9 @@ class Technology extends Component {
                                     The diverse team comes from niche tech stack, functional and
                                     operations experts, data science to fulfil the common vision
                                 </div>
-                                <div>
+                                <img src='assets/images/tech.jpeg' alt='img' width="100%" height="auto" className="pt-5" />
+
+                                <div className="container-blue-small">
                                     <h6 className="arrow-text">
                                         <img src='assets/images/arrow-right.svg' alt="img" />
                                         <span style={{ fontWeight: 'bold' }}>Cutting edge open source technology and certification</span>
@@ -101,7 +103,6 @@ class Technology extends Component {
                                         <span style={{ fontWeight: 'bold' }}>AI/ML and deployment of reinforcement learning</span>
                                     </h6>
                                 </div>
-                                <img src='assets/images/tech.jpeg' alt='img' width="100%" height="auto" className="pb-5" />
 
                             </div>
                         </div>

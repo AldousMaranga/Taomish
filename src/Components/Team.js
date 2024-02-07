@@ -46,7 +46,7 @@ class Team extends Component {
 
                         <div className="small-screen-cont d-lg-none">
                             <div className="small-team-strip">
-                                <div className="title">TEAM</div>
+                                <div className="title pt-5">TEAM</div>
                                 <div className="team-text1 pb-4">
                                     Diverse team of corporate innovators, product managers,
                                     designers and engineers as you develop a winning future-back

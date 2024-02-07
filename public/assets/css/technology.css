@@ -20,6 +20,11 @@
     /* width: calc(90vw + 4px); */
 }
 
+.container-blue-small {
+    background: linear-gradient(to left, #44ffd3 0%, #1ca8f4 50%, #034078 100%);
+    padding: 20px;
+}
+
 .tech-img{
     width: auto;
     height: 400px;

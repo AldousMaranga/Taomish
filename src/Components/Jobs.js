@@ -56,20 +56,25 @@ function Jobs() {
                             <hr className="pb-1"></hr>
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>India </h5>
 
-                            <h6><a className="tab-button" data-tab="tab1" onClick={() => openTab('tab1')}>Bengaluru<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
-                            <h6 className="pb-2"><a className="tab-button" data-tab="tab2" onClick={() => openTab('tab2')}>Thiruvananthapuram<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
+                            <h6><a className="tab-button" data-tab="tab1" onClick={() => openTab('tab1')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Bengaluru</a></h6>
+                            <h6 className="pb-2"><a className="tab-button" data-tab="tab2" onClick={() => openTab('tab2')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Thiruvananthapuram</a></h6>
 
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>Singapore</h5>
 
-                            <h6><a className="tab-button" data-tab="tab3" onClick={() => openTab('tab3')}>Singapore<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
+                            <h6><a className="tab-button" data-tab="tab3" onClick={() => openTab('tab3')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Singapore</a></h6>
+
+                            <h5 className="pb-2" style={{ fontWeight: "bold" }}>UAE</h5>
+                            <h6><a className="tab-button" data-tab="tab4" onClick={() => openTab('tab4')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />UAE</a></h6>
+
 
 
                         </div>
 
                         <div className="job-strip1">
-                            <div id="tab1" class="tab-content">Content for Tab 1</div>
-                            <div id="tab2" class="tab-content">Content for Tab 2</div>
-                            <div id="tab3" class="tab-content">Content for Tab 3</div>
+                            <div id="tab1" class="tab-content job-list-cont">Content for Tab 1</div>
+                            <div id="tab2" class="tab-content job-list-cont">Content for Tab 2</div>
+                            <div id="tab3" class="tab-content job-list-cont">Content for Tab 3</div>
+                            <div id="tab4" class="tab-content job-list-cont">Content for Tab 4</div>
                         </div>
 
                         <div className="job-strip2"></div>
@@ -91,12 +96,16 @@ function Jobs() {
                             <hr className="pb-2"></hr>
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>India </h5>
 
-                            <h6><a className="tab-button" data-tab="tab1-small" onClick={() => openTab('tab1-small')}>Bengaluru<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
-                            <h6 className="pb-2"><a className="tab-button" data-tab="tab2-small" onClick={() => openTab('tab2-small')}>Thiruvananthapuram<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
+                            <h6><a className="tab-button" data-tab="tab1-small" onClick={() => openTab('tab1-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Bengaluru</a></h6>
+                            <h6 className="pb-2"><a className="tab-button" data-tab="tab2-small" onClick={() => openTab('tab2-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Thiruvananthapuram</a></h6>
 
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>Singapore</h5>
 
-                            <h6><a className="tab-button" data-tab="tab3-small" onClick={() => openTab('tab3-small')}>Singapore<img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /></a></h6>
+                            <h6><a className="tab-button" data-tab="tab3-small" onClick={() => openTab('tab3-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Singapore</a></h6>
+
+                            <h5 className="pb-2" style={{ fontWeight: "bold" }}>UAE</h5>
+                            <h6><a className="tab-button" data-tab="tab4-small" onClick={() => openTab('tab4-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />UAE</a></h6>
+
 
 
                             <div className="job-strip1-small pb-5 pt-3">
@@ -109,6 +118,8 @@ function Jobs() {
                                 <div id="tab1-small" class="tab-content">Content for Tab 1</div>
                                 <div id="tab2-small" class="tab-content">Content for Tab 2</div>
                                 <div id="tab3-small" class="tab-content">Content for Tab 3</div>
+                                <div id="tab4-small" class="tab-content">Content for Tab 3</div>
+
                             </div>
 
                         </div>
