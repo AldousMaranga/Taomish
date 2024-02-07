@@ -17,15 +17,15 @@ class Work extends Component {
 
                                 <div className="work-strip1" style={{ paddingTop: "2em" }}>
                                     <div className="worktexts-cont">
-                                        <div className="title pb-3">WORK</div>
-                                        <div className='worktext'>
+                                        <div className="title">WORK</div>
+                                        <div className='worktext work-spacing'>
                                             We manage all technical aspects of software product
-                                            development includes design the software or daata
+                                            development includes design the software or data
                                             architecture, perform the engineering – low code development,
                                             automation and systems integration – and manage technical
                                             operations
                                         </div>
-                                        <div className="worklist-cont margin-top">
+                                        <div className="worklist-cont work-spacing">
                                             <h6 className="worklist">
                                                 <img src='assets/images/arrow-right.svg' alt="img" />
                                                 <span>Digital Consulting</span>

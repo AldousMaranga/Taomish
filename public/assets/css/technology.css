@@ -26,8 +26,12 @@
 }
 
 .text-1{
-    padding: 30px 100px 0 30px;
+    padding-left: 30px;
     font-size: 20px;
+}
+
+.tech-spacing {
+    margin-bottom: 30px;
 }
 
 .text-2 {
@@ -64,7 +68,7 @@
     }
 
     .text-1{
-        padding: 30px 100px 0 30px;
+        padding-left: 30px;
         font-size: 18px;
     }
 }
@@ -79,9 +83,25 @@
         padding: 20px;
     }
 
+}
+
+@media only screen and (max-width: 1200px) {
+    .tech-img{
+        width: 50%;
+        height: auto;
+    }
+
+    .text-2 {
+        padding: 20px;
+    }
+
     .text-1{
-        padding: 30px 100px 0 30px;
+        padding-left: 30px;
         font-size: 18px;
+    }
+
+    .tech-spacing {
+        margin-bottom: 5px;
     }
 }
 

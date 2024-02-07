@@ -9,10 +9,10 @@ class Technology extends Component {
                     <div id="technology">
                         <div className="min-height p-left d-none d-lg-block">
                             <div className="technology-strip">
-                                <div className="title" style={{ paddingTop: "70px" }}>
+                                <div className="title tech-spacing" style={{ paddingTop: "20px" }}>
                                     TECHNOLOGY
                                 </div>
-                                <div className="text-1">
+                                <div className="text-1 tech-spacing">
                                     We are passionate technologist, problem solvers, envisioning the
                                     future of supply chain. The common vision to empowering our
                                     customers to create, secure, and operate adaptive applications
@@ -21,7 +21,7 @@ class Technology extends Component {
                                     technology solution and digital transformation consulting
                                     services.
                                 </div>
-                                <div className="text-1">
+                                <div className="text-1 tech-spacing">
                                     The diverse team comes from niche tech stack, functional and
                                     operations experts, data science to fulfil the common vision
                                 </div>
@@ -63,7 +63,7 @@ class Technology extends Component {
 
                         <div className="small-screen-cont d-lg-none">
                             <div className="small-technology-strip">
-                                <div className="title" style={{ paddingTop: "70px" }}>
+                                <div className="title" style={{ paddingTop: "700px" }}>
                                     TECHNOLOGY
                                 </div>
                                 <div className="text-1-small">
@@ -79,7 +79,7 @@ class Technology extends Component {
                                     The diverse team comes from niche tech stack, functional and
                                     operations experts, data science to fulfil the common vision
                                 </div>
-                                <div className="pt-3 pb-3">
+                                <div>
                                     <h6 className="arrow-text">
                                         <img src='assets/images/arrow-right.svg' alt="img" />
                                         <span style={{ fontWeight: 'bold' }}>Cutting edge open source technology and certification</span>
