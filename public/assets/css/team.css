@@ -19,12 +19,16 @@
     border-top-left-radius: 66px;
     position: relative;
     height: calc(90vh + 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .team-text {
     padding-left: 50px;
     width: 20vw;
     padding-top: 50px;
+    margin-right: 10vw
 }
 
 .team-text1 {
@@ -34,11 +38,11 @@
 }
 
 .carousel-cont {
-    width: 660px;
-    height: 420px;
-    position: absolute;
+    width: 50vw;
+    height: auto;
+    /* position: absolute;
     right: 0;
-    bottom: 160px;
+    bottom: 160px; */
 }
 
 .carousel-img {
@@ -51,10 +55,21 @@
     transition-duration: 1s !important;
 }
 
+
+@media only screen and (max-width: 1440px){
+    .team-text {
+        padding-left: 50px;
+        width: 30vw;
+        margin-right: 0px;
+        padding-top: 50px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .team-text {
         padding-left: 50px;
-        width: 25vw;
+        width: 30vw;
+        margin-right: 0px;
         padding-top: 50px;
     }
 
@@ -64,14 +79,14 @@
         font-weight: bold;
     }
 
-    .carousel-cont {
+    /* .carousel-cont {
         border-top-left-radius: 66px;
         width: 450px;
         height: 300px;
         position: absolute;
         right: 0;
         bottom: 200px;
-    }
+    } */
 
     .carousel-img {
         border-top-left-radius: 200px;
