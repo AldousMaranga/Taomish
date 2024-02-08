@@ -28,6 +28,7 @@ class Technology extends Component {
 
                                 <div className="container-blue">
                                     <img src='assets/images/tech.jpeg' alt='img' className="tech-img" />
+                              
 
                                     <div className="text-2">
                                         <h6 className="arrow-text">

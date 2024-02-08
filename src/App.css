@@ -25,7 +25,7 @@
 
 .scrolled .cont {
     background-color: #000000;
-    /* Change the background color when scrolled */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .nav-cont {
@@ -61,14 +61,6 @@
     background-color: #ffffff;
 }
 
-/* .box-cont {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-} */
-
-
 .p-left {
     padding-left: 100px;
 }
@@ -77,25 +69,14 @@
     font-size: 40px;
     /* letter-spacing: 10px; */
     color: #034078;
-    /* font-family: sans-serif; */
-    /* font-family: Helvetica, Arial, sans-serif; */
-
     font-weight: bolder;
-    /* text-decoration: underline; */
-    /* text-shadow: 1px 1px 2px black; */
-    /* font-family: "Montserrat"; */
-    /* font-family: Helvetica, Arial, sans-serif !important; */
-
 }
-
-
 
 .arrow-nav {
     background-color: #30e489;
     padding: 10px;
     border-radius: 30px;
 }
-
 
 /* Collapsible Sidenav */
 .right-nav {
@@ -121,7 +102,7 @@
     display: block;
     width: 70px;
     height: 70px;
-    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     transition: transform 1s ease;
 }
 
@@ -129,7 +110,7 @@
     display: none;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    /* border-bottom-left-radius: 25px; */
+    border-bottom-left-radius: 25px;
 }
 
 .img-link {
