@@ -26,9 +26,15 @@ class Technology extends Component {
                                     operations experts, data science to fulfil the common vision
                                 </div>
 
+
                                 <div className="container-blue">
-                                    <img src='assets/images/tech.jpeg' alt='img' className="tech-img" />
-                              
+                                    {/* <img src='assets/images/tech.jpeg' alt='img' className="tech-img" /> */}
+
+                                    <div class="wistia-cont">
+                                        <div class="wistia-cont1">
+                                            <span class="wistia_embed wistia_async_wvazajn35u popover=true videoFoam=true wistia-cont2">&nbsp;</span>
+                                        </div>
+                                    </div>
 
                                     <div className="text-2">
                                         <h6 className="arrow-text">
