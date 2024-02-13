@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { CCarousel, CCarouselItem } from '@coreui/react';
-import '@coreui/coreui/dist/css/coreui.min.css'
+// import 'react-responsive-carousel/lib/styles/carousel.min.css';
+// import { CCarousel, CCarouselItem } from '@coreui/react';
+// import '@coreui/coreui/dist/css/coreui.min.css'
 
 class Landing extends Component {
 
@@ -24,7 +24,7 @@ class Landing extends Component {
                                 </div>
 
                                 <div className="landing-img-cont">
-                                    <CCarousel transition="crossfade">
+                                    {/* <CCarousel transition="crossfade">
                                         <CCarouselItem>
                                             <img src="assets/images/landing-img1.png" alt="img" className="landing-img" />
                                         </CCarouselItem>
@@ -34,7 +34,8 @@ class Landing extends Component {
                                         <CCarouselItem>
                                             <img src="assets/images/landing-img3.png" alt="img" className="landing-img" />
                                         </CCarouselItem>
-                                    </CCarousel>
+                                    </CCarousel> */}
+                                    <img src="assets/automation.gif" alt="img" width='100%' height='auto'/>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +51,7 @@ class Landing extends Component {
                             </div>
 
                             <div className="landing-img-cont-small">
-                                <CCarousel transition="crossfade" className="carousel">
+                                {/* <CCarousel transition="crossfade" className="carousel">
                                     <CCarouselItem>
                                         <img src="assets/images/landing-img1.png" alt="img" className="landing-img" />
                                     </CCarouselItem>
@@ -60,7 +61,9 @@ class Landing extends Component {
                                     <CCarouselItem>
                                         <img src="assets/images/landing-img3.png" alt="img" className="landing-img" />
                                     </CCarouselItem>
-                                </CCarousel>
+                                </CCarousel> */}
+                                <img src="assets/automation.gif" alt="img" width='100%' height='auto'/>
+
                             </div>
                         </div>
                     </div>
