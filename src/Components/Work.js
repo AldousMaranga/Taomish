@@ -44,18 +44,10 @@ class Work extends Component {
                                             </h6>
                                         </div>
                                     </div>
-
-
-                                    {/* <div className="arrow-nav" style={{width: '200px'}}>
-                                    <a href="#projects" style={{ textDecoration: 'none'}} >
-                                        <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
-                                        <span >Projects</span>
-                                    </a>
-                                </div> */}
                                 </div>
 
                                 <div className="globe">
-                                    <img src='assets/images/globe-pin.jpg' alt='img' className="align-bot" width='100%' height='auto' style={{ borderRadius: "500px" }}></img>
+                                    <img src='assets/images/globe.png' alt='img' className="align-bot" width='100%' height='auto'></img>
                                 </div>
                             </div>
 
@@ -89,18 +81,8 @@ class Work extends Component {
 
 
                                 <div className="globe-small">
-                                    <img src='assets/images/globe-pin.jpg' alt='img' width='100%' height='auto' style={{ borderRadius: "500px" }}></img>
+                                    <img src='assets/images/globe.png' alt='img' width='100%' height='auto'></img>
                                 </div>
-
-
-                                {/* <div>
-                                <a href="#projects" style={{ textDecoration: 'none', color: '#000000' }}>
-                                    <img src='assets/images/down-arrow.svg' alt='img' height='100px' width='auto' />
-                                    <span >Projects</span>
-                                </a>
-                            </div> */}
-
-
                             </div>
                         </div>
                     </div>

@@ -32,14 +32,7 @@ function Jobs() {
             <body>
                 <div id="jobs">
                     <div className="min-height p-left d-none d-lg-block job-cont">
-                        <div id="default-tab" class="tab-content active">
-                            <div className='job-placeholder'>
-                                <img src='/assets/images/job-img.jpg' alt='img' width="auto" height="500px" />
-                            </div>
-                            <div className='text-job job-text1'>
-                                Look for available jobs near you!
-                            </div>
-                        </div>
+
 
                         <div className="job-strip"></div>
                         <div className="job-text-cont">
@@ -71,6 +64,18 @@ function Jobs() {
                         </div>
 
                         <div className="job-strip1">
+                            <div id="default-tab" class="tab-content active">
+                                <div className='job-placeholder'>
+                                    <div class="wistia-cont-job">
+                                        <div class="wistia-cont1-job">
+                                            <div className='job-text1'>
+                                                Look for available jobs near you!
+                                            </div>
+                                            <span class="wistia_embed wistia_async_wvazajn35u popover=true videoFoam=true wistia-cont2">&nbsp;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div id="tab1" class="tab-content job-list-cont">Content for Tab 1</div>
                             <div id="tab2" class="tab-content job-list-cont">Content for Tab 2</div>
                             <div id="tab3" class="tab-content job-list-cont">Content for Tab 3</div>
@@ -109,12 +114,24 @@ function Jobs() {
 
 
                             <div className="job-strip1-small pb-5 pt-3">
-                                <div id="default-tab" class="tab-content active">
+                                {/* <div id="default-tab" class="tab-content active">
                                     <div className='job-text1' style={{ textAlign: 'center' }}>
                                         Jobs near you!
                                     </div>
                                     <img src='/assets/images/job-img.jpg' alt='img' width="auto" height="500px" />
+                                </div> */}
+
+                                <div id="default-tab" class="tab-content active">
+                                    <div class="wistia-cont-job">
+                                        <div class="wistia-cont1-job">
+                                            <div className='job-text1'>
+                                                Look for available jobs near you!
+                                            </div>
+                                            <span class="wistia_embed wistia_async_wvazajn35u popover=true videoFoam=true wistia-cont2-job">&nbsp;</span>
+                                        </div>
+                                    </div>
                                 </div>
+
                                 <div id="tab1-small" class="tab-content">Content for Tab 1</div>
                                 <div id="tab2-small" class="tab-content">Content for Tab 2</div>
                                 <div id="tab3-small" class="tab-content">Content for Tab 3</div>

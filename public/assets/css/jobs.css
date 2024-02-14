@@ -4,17 +4,9 @@
 }
 
 .job-placeholder {
-    position: absolute;
-    left: 60%;
-    bottom: 150px;
+    margin-left: 10vw;
 }
 
-.text-job {
-    position: absolute;
-    left: 50%;
-    bottom: 650px;
-    padding-right: 5px;
-}
 
 .job-strip {
     height: 10vh;
@@ -42,7 +34,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
 }
 
 .job-strip1-small {
@@ -51,7 +42,11 @@
     align-items: center;
 }
 
-
+.wistia-cont2-job {
+    position: relative;
+    width: 80vw;
+    height: 300px;
+}
 
 .job-strip2 {
     height: 10vh;
@@ -69,7 +64,6 @@
     border-left: 10px solid #c5c5c5;
     border-top: 10px solid #c5c5c5;
     border-top-left-radius: 66px;
-
 }
 
 .job-text-cont {
@@ -80,7 +74,6 @@
     left: 70px;
     padding-left: 80px;
     padding-top: 50px;
-    /* text-align: left; */
 }
 
 .job-text1 {
@@ -115,16 +108,9 @@ a {
     display: none;
 }
 
-
-
 .tab-content.active {
     display: block;
 }
-
-/* @media only screen and (min-width: 768px) {
-
-
-} */
 
 /* Mobile View */
 .small-jobs-strip {
