@@ -49,15 +49,15 @@ function Jobs() {
                             <hr className="pb-1"></hr>
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>India </h5>
 
-                            <h6><a className="tab-button" data-tab="tab1" onClick={() => openTab('tab1')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Bengaluru</a></h6>
-                            <h6 className="pb-2"><a className="tab-button" data-tab="tab2" onClick={() => openTab('tab2')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Thiruvananthapuram</a></h6>
+                            <h6><div className="tab-button" data-tab="tab1" onClick={() => openTab('tab1')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Bengaluru</div></h6>
+                            <h6 className="pb-2"><div className="tab-button" data-tab="tab2" onClick={() => openTab('tab2')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Thiruvananthapuram</div></h6>
 
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>Singapore</h5>
 
-                            <h6><a className="tab-button" data-tab="tab3" onClick={() => openTab('tab3')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Singapore</a></h6>
+                            <h6><div className="tab-button" data-tab="tab3" onClick={() => openTab('tab3')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Singapore</div></h6>
 
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>UAE</h5>
-                            <h6><a className="tab-button" data-tab="tab4" onClick={() => openTab('tab4')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />UAE</a></h6>
+                            <h6><div className="tab-button" data-tab="tab4" onClick={() => openTab('tab4')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />UAE</div></h6>
 
 
 
@@ -101,15 +101,15 @@ function Jobs() {
                             <hr className="pb-2"></hr>
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>India </h5>
 
-                            <h6><a className="tab-button" data-tab="tab1-small" onClick={() => openTab('tab1-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Bengaluru</a></h6>
-                            <h6 className="pb-2"><a className="tab-button" data-tab="tab2-small" onClick={() => openTab('tab2-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Thiruvananthapuram</a></h6>
+                            <h6><div className="tab-button" data-tab="tab1-small" onClick={() => openTab('tab1-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Bengaluru</div></h6>
+                            <h6 className="pb-2"><div className="tab-button" data-tab="tab2-small" onClick={() => openTab('tab2-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Thiruvananthapuram</div></h6>
 
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>Singapore</h5>
 
-                            <h6><a className="tab-button" data-tab="tab3-small" onClick={() => openTab('tab3-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Singapore</a></h6>
+                            <h6><div className="tab-button" data-tab="tab3-small" onClick={() => openTab('tab3-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />Singapore</div></h6>
 
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>UAE</h5>
-                            <h6><a className="tab-button" data-tab="tab4-small" onClick={() => openTab('tab4-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />UAE</a></h6>
+                            <h6><div className="tab-button" data-tab="tab4-small" onClick={() => openTab('tab4-small')}><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' />UAE</div></h6>
 
 
 

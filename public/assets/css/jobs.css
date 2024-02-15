@@ -85,15 +85,15 @@
     font-size: 16px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 .tab-button {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .tab-button:hover {
@@ -101,7 +101,8 @@ a {
 }
 
 .tab-button.active {
-    background-color: #ccc;
+    color: #034078;
+    font-weight: bolder;
 }
 
 .tab-content {
