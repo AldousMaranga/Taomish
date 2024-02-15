@@ -16,26 +16,18 @@ class Landing extends Component {
                                 {/* <img src="assets/images/new-landing.png" alt="logo" className="under-image" /> */}
                                 <div className="landing-text">
                                     <div className="over-text">
-                                        <div className="text1">Bridging the complexity of SaaS cloud. Simplifying the digital transformation journey</div>
+                                        <div className="text1">Bridging the complexity of
+                                            <div className="text1-high">SaaS Cloud</div>
+                                            simplifying the digital transformation journey
+                                        </div>
                                     </div>
-                                    <div className="over-text1">
+                                    {/* <div className="over-text1">
                                         <div className="text2">Passionate engineer and entrepreneur on quest to build better solution for tomorrow.</div>
-                                    </div>
+                                    </div> */}
                                 </div>
 
                                 <div className="landing-img-cont">
-                                    {/* <CCarousel transition="crossfade">
-                                        <CCarouselItem>
-                                            <img src="assets/images/landing-img1.png" alt="img" className="landing-img" />
-                                        </CCarouselItem>
-                                        <CCarouselItem>
-                                            <img src="assets/images/landing-img2.png" alt="img" className="landing-img" />
-                                        </CCarouselItem>
-                                        <CCarouselItem>
-                                            <img src="assets/images/landing-img3.png" alt="img" className="landing-img" />
-                                        </CCarouselItem>
-                                    </CCarousel> */}
-                                    <img src="assets/automation.gif" alt="img" width='100%' height='auto'/>
+                                    <img src="assets/automation.gif" alt="img" width='100%' height='auto' />
                                 </div>
                             </div>
                         </div>
@@ -43,27 +35,15 @@ class Landing extends Component {
                         <div className="landing-cont-small  d-lg-none">
                             <div className="landing-text-small">
                                 <div className="over-text">
-                                    <div className="text1">Bridging the complexity of SaaS cloud. Simplifying the digital transformation journey</div>
+                                    <div className="text1">Bridging the complexity of <span className="text1-high">SaaS Cloud</span>. Simplifying the digital transformation journey</div>
                                 </div>
-                                <div className="over-text1">
+                                {/* <div className="over-text1">
                                     <div className="text2">Passionate engineer and entrepreneur on quest to build better solution for tomorrow.</div>
-                                </div>
+                                </div> */}
                             </div>
 
                             <div className="landing-img-cont-small">
-                                {/* <CCarousel transition="crossfade" className="carousel">
-                                    <CCarouselItem>
-                                        <img src="assets/images/landing-img1.png" alt="img" className="landing-img" />
-                                    </CCarouselItem>
-                                    <CCarouselItem>
-                                        <img src="assets/images/landing-img2.png" alt="img" className="landing-img" />
-                                    </CCarouselItem>
-                                    <CCarouselItem>
-                                        <img src="assets/images/landing-img3.png" alt="img" className="landing-img" />
-                                    </CCarouselItem>
-                                </CCarousel> */}
-                                <img src="assets/automation.gif" alt="img" width='100%' height='auto'/>
-
+                                <img src="assets/automation.gif" alt="img" width='100%' height='auto' />
                             </div>
                         </div>
                     </div>

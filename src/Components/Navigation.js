@@ -24,11 +24,11 @@ const Navigation = () => {
                 <div className="cont">
                     <a href="#home"><img src="assets/images/logo.png" alt="logo" height="30px" width="auto" style={{ margin: '10px 0px', paddingRight: '100px' }} /></a>
                     <div className='nav-cont'>
-                        <a href="#work" className="nav">WORK</a>
-                        <a href="#team" className="nav">TEAM</a>
-                        <a href="#careers" className="nav">CAREERS</a>
-                        <a href="#company" className="nav">COMPANY</a>
-                        <a href="#map" className="nav">CONTACT</a>
+                        <a href="#work" className="nav">Work</a>
+                        <a href="#team" className="nav">Team</a>
+                        <a href="#careers" className="nav">Careers</a>
+                        <a href="#company" className="nav">Company</a>
+                        <a href="#map" className="nav">Contact</a>
 
                         
                     </div>
