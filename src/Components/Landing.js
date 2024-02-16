@@ -18,7 +18,7 @@ class Landing extends Component {
                                     <div className="over-text">
                                         <div className="text1">Bridging the complexity of
                                             <div className="text1-high">SaaS Cloud</div>
-                                            simplifying the digital transformation journey
+                                            Simplifying the digital transformation journey
                                         </div>
                                     </div>
                                     {/* <div className="over-text1">

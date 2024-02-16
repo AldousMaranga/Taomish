@@ -11,8 +11,8 @@ class Projects extends Component {
                         <div className="min-height p-left d-none d-lg-block">
                             <div className="project-cont">
                                 <div className="project-strip">
-                                    <div className="title t-txt1">PROJECTS</div>
-                                    <div className="t-txt2">Our Recent Adventures</div>
+                                    <div className="title t-txt1">PRODUCTS</div>
+                                    <div className="t-txt2">Our latest business escapade</div>
                                     <div className="t-txt3">
                                         <div className="scroll-width">
                                             <div className="card-column">
@@ -21,7 +21,7 @@ class Projects extends Component {
                                                     <div className="card">
                                                         <div className="front-card">
                                                             <div className="card-text">
-                                                                Commodity Trading and Risk Management
+                                                                Trading and Risk Management
                                                             </div>
                                                             <img src="assets/images/ask.svg" alt="img" width="auto" height="200px" />
                                                         </div>
@@ -53,7 +53,7 @@ class Projects extends Component {
                                                     <div className="card">
                                                         <div className="front-card">
                                                             <div className="card-text pb-4">
-                                                                Inventory Management
+                                                                Advance Risk Analytics
                                                             </div>
                                                             <img src="assets/images/security.svg" alt="img" width="100%" height="auto" />
                                                         </div>

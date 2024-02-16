@@ -26,6 +26,11 @@
     font-weight: bolder;
 }
 
+.arrow {
+    height: 50px;
+    width: auto;
+}
+
 .work-spacing {
     margin-top: 3vh;
 }
