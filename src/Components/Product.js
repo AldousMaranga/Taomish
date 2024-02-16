@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
         return (
             <html>
-                <link rel="stylesheet" href="/assets/css/projects.css" type="text/css" />
+                <link rel="stylesheet" href="/assets/css/product.css" type="text/css" />
                 <body>
                     <div id="projects">
                         <div className="min-height p-left d-none d-lg-block">

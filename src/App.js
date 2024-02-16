@@ -7,7 +7,7 @@ import Careers from './Components/Careers';
 import Company from './Components/Company';
 import Contact from './Components/Contact'
 import Navigation from './Components/Navigation'
-import Projects from './Components/Projects';
+import Projects from './Components/Product';
 import Technology from './Components/Technology';
 import Jobs from './Components/Jobs';
 import Morals from './Components/Morals';

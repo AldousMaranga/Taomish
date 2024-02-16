@@ -18,14 +18,6 @@
     border-bottom-left-radius: 66px;
 }
 
-/* .project-strip1 {
-    height: 10vh;
-    width: 90%;
-    border-left: 10px solid #c5c5c5;
-    border-bottom: 10px solid #c5c5c5;
-    border-bottom-left-radius: 66px;
-} */
-
 .project-strip2 {
     border-right: 10px solid #c5c5c5;
     border-top: 10px solid #c5c5c5;
@@ -136,11 +128,12 @@
     font-size: 15px;
     font-weight: bold;
     color: #ffffff;
+    padding-bottom: 10px;
 }
 
 .bc-txt2 {
     font-size: 15px;
-    color: #33FFCE;
+    color: #ffffff;
 }
 
 /* @media only screen and (min-width: '1440px') {
