@@ -17,9 +17,7 @@ class Team extends Component {
                                 <div className="team-text pb-3">
                                     <div className="title">TEAM</div>
                                     <div className="team-text1">
-                                        Diverse team of corporate innovators, product managers,
-                                        designers and engineers as you develop a winning future-back
-                                        strategy.
+                                        We are a dynamic group of corporate visionaries, product leaders, exceptional designers, and expert engineers. Together, we are driving innovation through strategic thinking, crafting a future-focused approach that sets the stage for tomorrow's accomplishments. Let's unleash our passion and our creative potential as we shape the future of success.
                                     </div>
                                 </div>
                                 <div className="carousel-cont">
@@ -48,9 +46,7 @@ class Team extends Component {
                             <div className="small-team-strip">
                                 <div className="title pt-5">TEAM</div>
                                 <div className="team-text1 pb-4">
-                                    Diverse team of corporate innovators, product managers,
-                                    designers and engineers as you develop a winning future-back
-                                    strategy.
+                                    We are a dynamic group of corporate visionaries, product leaders, exceptional designers, and expert engineers. Together, we are driving innovation through strategic thinking, crafting a future-focused approach that sets the stage for tomorrow's accomplishments. Let's unleash our passion and our creative potential as we shape the future of success.
                                 </div>
                                 <div className="carousel-cont-small pb-4">
                                     <CCarousel transition="crossfade" controls>

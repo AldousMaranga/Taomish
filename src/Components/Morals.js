@@ -16,10 +16,11 @@ class Morals extends Component {
 
                             <div className="moral-strip1">
                                 <div className="mvo-cont">
+
                                     <div className="mvo" style={{ marginRight: '10px' }}>
                                         <div className="mvo-header">Who we are?</div>
                                         <div className="pb-3">
-                                            <span style={{ fontWeight: "bold" }}>Leaders</span> in Trading, Risk management, Technology and User experience.
+                                            <span style={{ fontWeight: "bold" }}>Leaders</span> in Trading, Risk Management, Technology, and User Experience. Together, we are a dynamic team of solution-finders, who combine our human ingenuity, vast experience, and cutting-edge technology to provide custom-tailored solutions.
                                         </div>
                                         <div>
                                             We are a
@@ -27,13 +28,14 @@ class Morals extends Component {
                                             <span style={{ fontWeight: "bold" }}> human ingenuity, experience and technology innovation</span> to deliver best fit solutions.
                                         </div>
                                     </div>
+
                                     <div className="mvo" style={{ marginRight: '10px' }}>
                                         <div className="mvo-header">Our Mission</div>
                                         <div className="pb-3">
-                                            Digitalise the supply chain with our Seamless, Ingenuine and Smart solutions helping our customers scale.
+                                            Digitize your supply chain with our seamless, ingenious, and smart solutions, empowering customers to scale effortlessly.
                                         </div>
                                         <div style={{ fontWeight: "bold" }} className="pb-3">
-                                            What we strive for:
+                                            Join us in our pursuit of excellence and let us work towards attaining our shared aspirations!
                                         </div>
 
                                         <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Future Ready</div>
@@ -41,18 +43,18 @@ class Morals extends Component {
                                         <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Relevant</div>
                                         <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Strategic</div>
                                     </div>
+
                                     <div className="mvo">
                                         <div className="mvo-header">Our Vision</div>
                                         <div className="pb-3">
-                                            Our values is what has become our business axioms that underpin everything we do.
+                                            Our values are what have become our business axioms that underpin everything we do.
                                         </div>
                                         <div className="pb-3" style={{ fontWeight: "bold" }}>
                                             Our unwavered values:
                                         </div>
-
                                         <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Ownership Mindset</div>
-                                        <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Innovation and ambition</div>
-                                        <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Integrity and transparency</div>
+                                        <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Innovation and Ambition</div>
+                                        <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Integrity and Transparency</div>
                                         <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Client focused</div>
                                     </div>
                                 </div>
@@ -66,7 +68,7 @@ class Morals extends Component {
                                     <div className="title pb-5">WHERE WE ARE HEADING</div>
                                     <div className="mvo-header">Who we are?</div>
                                     <div className="pb-3">
-                                        <span style={{ fontWeight: "bold" }}>Leaders</span> in Trading, Risk management, Technology and User experience.
+                                        <span style={{ fontWeight: "bold" }}>Leaders</span> in Trading, Risk Management, Technology, and User Experience. Together, we are a dynamic team of solution-finders, who combine our human ingenuity, vast experience, and cutting-edge technology to provide custom-tailored solutions.
                                     </div>
                                     <div>
                                         We are a
@@ -77,10 +79,10 @@ class Morals extends Component {
                                 <div className="pb-5">
                                     <div className="mvo-header">Our Mission</div>
                                     <div className="pb-3">
-                                        Digitalise the supply chain with our Seamless, Ingenuine and Smart solutions helping our customers scale.
+                                        Digitize your supply chain with our seamless, ingenious, and smart solutions, empowering customers to scale effortlessly.
                                     </div>
                                     <div style={{ fontWeight: "bold" }} className="pb-3">
-                                        What we strive for:
+                                        Join us in our pursuit of excellence and let us work towards attaining our shared aspirations!
                                     </div>
 
                                     <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Future Ready</div>
@@ -91,15 +93,15 @@ class Morals extends Component {
                                 <div className="pb-5">
                                     <div className="mvo-header">Our Vision</div>
                                     <div className="pb-3">
-                                        Our values is what has become our business axioms that underpin everything we do.
+                                        Our values are what have become our business axioms that underpin everything we do.
                                     </div>
                                     <div className="pb-3" style={{ fontWeight: "bold" }}>
                                         Our unwavered values:
                                     </div>
 
                                     <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Ownership Mindset</div>
-                                    <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Innovation and ambition</div>
-                                    <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Integrity and transparency</div>
+                                    <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Innovation and Ambition</div>
+                                    <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Integrity and Transparency</div>
                                     <div className="pb-2"><img src='assets/images/diamond.svg' width='20px' height='20px' alt='img' /> Client focused</div>
                                 </div>
                             </div>

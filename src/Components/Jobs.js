@@ -41,10 +41,7 @@ function Jobs() {
                                 Shape the future of technology
                             </div>
                             <div className="job-text2 pb-1">
-                                As a global company with unparalleled scale, a track record
-                                of pioneering innovation, and a huge and influential client
-                                base, we offer associates a chance to drive change and
-                                improve the lives of millions of people arount the world.
+                                Empowering people to drive change and make a positive impact on millions worldwide –is the driving force behind our global company. With unrivaled scale, pioneering innovation, and a vast client base, we give our associates the tools and support to make a difference.
                             </div>
                             <hr className="pb-1"></hr>
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>India </h5>
@@ -93,10 +90,7 @@ function Jobs() {
                                 Shape the future of technology
                             </div>
                             <div className="job-text2 pb-2">
-                                As a global company with unparalleled scale, a track record
-                                of pioneering innovation, and a huge and influential client
-                                base, we offer associates a chance to drive change and
-                                improve the lives of millions of people arount the world.
+                                Empowering people to drive change and make a positive impact on millions worldwide –is the driving force behind our global company. With unrivaled scale, pioneering innovation, and a vast client base, we give our associates the tools and support to make a difference.
                             </div>
                             <hr className="pb-2"></hr>
                             <h5 className="pb-2" style={{ fontWeight: "bold" }}>India </h5>
