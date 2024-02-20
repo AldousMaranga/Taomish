@@ -43,7 +43,7 @@ function Products() {
                                     <div className="scroll-width">
                                         <div className="card-column">
                                             {/* Card 1 */}
-                                            <a href="#card1" data-tab="card1" onClick={() => openCard('card1')} className="card-cont">
+                                            <a href="#TradingAndRiskManagement" data-tab="TradingAndRiskManagement" onClick={() => openCard('TradingAndRiskManagement')} className="card-cont">
                                                 <div className="card">
                                                     <div className="front-card">
                                                         <div className="card-text">
@@ -59,7 +59,7 @@ function Products() {
                                                 </div>
                                             </a>
                                             {/* Card 2 */}
-                                            <a href='#card2' data-tab="card2" onClick={() => openCard('card2')} className="card-cont">
+                                            <a href='#Treasury' data-tab="Treasury" onClick={() => openCard('Treasury')} className="card-cont">
                                                 <div className="card">
                                                     <div className="front-card">
                                                         <div className="card-text pb-5">
@@ -75,7 +75,7 @@ function Products() {
                                                 </div>
                                             </a>
                                             {/* Card 3 */}
-                                            <a href='#card3' data-tab="card3" onClick={() => openCard('card3')} className="card-cont">
+                                            <a href='#AdvanceRiskAnalytics' data-tab="AdvanceRiskAnalytics" onClick={() => openCard('AdvanceRiskAnalytics')} className="card-cont">
                                                 <div className="card">
                                                     <div className="front-card">
                                                         <div className="card-text pb-4">
@@ -91,7 +91,7 @@ function Products() {
                                                 </div>
                                             </a>
                                             {/* Card 4 */}
-                                            <a href='#card4' data-tab="card4" onClick={() => openCard('card4')} className="card-cont">
+                                            <a href='#Taru' data-tab="Taru" onClick={() => openCard('Taru')} className="card-cont">
                                                 <div className="card">
                                                     <div className="front-card">
                                                         <div className="card-text">
@@ -127,25 +127,121 @@ function Products() {
 
                     </div>
 
-                    <body>
-                        <div></div>
-                        <div className="cards" id="card1">
-                            <a href='#projects' onClick={() => openCard(null)}>Close</a>
-                            <div>Card 1</div>
+                    <div className='card-style'>
+                        {/* Open Card 1 */}
+                        <div className="cards" id="TradingAndRiskManagement">
+                            <a href='#projects' onClick={() => openCard(null)} className='card-link'>
+                                <img src='assets/images/turn-back.png' alt='img' className='card-img' />
+                                <span>Back</span>
+                            </a>
+                            {/* Open Card Content 1 */}
+                            <div className='open-card-cont'>
+                                <div className="open-card-header">Solutions</div>
+                                <div className='open-card-flex'>
+                                    <div className='open-card-row'>
+                                        <div className='smaller-header'>Trading and Risk Management</div>
+                                        <ul>
+                                            <li>Simplify and streamline complex trading processes with Xceler’s innovative contract management system.</li>
+                                            <li>Digitize contracts conveniently with smart and intuitive design.</li>
+                                            <li>Seamlessly integrate with upstream and downstream applications for efficient trading.</li>
+                                        </ul>
+                                    </div>
+                                    <div className='open-card-row'>
+                                        <div className='smaller-header'>Document Management</div>
+                                        <ul>
+                                            <li>Generate documents effortlessly using advanced templates and data integration capabilities.</li>
+                                            <li>Transmit finalized documents via email or integrate with preferred applications like Zapier, Dropbox, or Docusign. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='open-card-flex'>
+                                    <div className='open-card-row'>
+                                        <div className='smaller-header'>KYC and Compliance Check</div>
+                                        <ul>
+                                            <li>Transform repetitive contracts, invoices, and shipping documents into templates for quick generation and delivery.</li>
+                                            <li>Revolutionize customer and vendor onboarding process with advanced AI algorithm. </li>
+                                        </ul>
+                                    </div>
+                                    <div className='open-card-row'>
+                                        <div className='smaller-header'>Operations and Logistics Management</div>
+                                        <ul>
+                                            <li>Increase efficiency in international trade operations and logistics with our user-friendly workbench.</li>
+                                            <li>Comprehensive view of trade planning, price fixing, logistics, and invoicing in one location.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className='open-card-flex'>
+                                    <div className='open-card-row'>
+                                        <div className='smaller-header'>Risk Analytics and Widgets</div>
+                                        <ul>
+                                            <li>Oversee customer and vendor onboarding effortlessly.</li>
+                                            <li>Stay informed on vendor progress through cutting-edge proprietary AI algorithms. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div className="cards" id="card2">
-                            <a href='#projects' onClick={() => openCard(null)}>Close</a>
-                            <div>Card 2</div>
+
+                        {/* Open Card 2 */}
+                        <div className="cards" id="Treasury">
+                            <a href='#projects' onClick={() => openCard(null)} className='card-link'>
+                                <img src='assets/images/turn-back.png' alt='img' className='card-img' />
+                                <span>Back</span>
+                            </a>
+                            {/* Open Card Content 2 */}
+                            <div className='open-card-cont'>
+                                <div className="open-card-header">Solutions</div>
+                                <div className='open-card-text-cont'>
+                                    <div className='open-card-text'>At Xceler, we pride ourselves on delivering top-of-the-line cash and liquidity management solutions. Our unique workflow system allows for secure collaboration and efficient task management, ensuring all your needs are easily met. Furthermore, Xceler simplifies bank connectivity and limit management by integrating MT940 reports, granting you access to daily cash positions and centralizing global payments and account information in one convenient location. Say goodbye to multiple access points and hello to unparalleled efficiency with Xceler.</div>
+                                    <ul>
+                                        <li>Constant monitoring of cash flow to cover expenses efficiently.</li>
+                                        <li>Implementing hedging strategies to mitigate risks from price fluctuations.</li>
+                                        <li>Adhering to regulatory standards to ensure compliance.</li>
+                                        <li>Being interoperable across your finance system to display rolling liquidity.</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div className="cards" id="card3">
-                            <a href='#projects' onClick={() => openCard(null)}>Close</a>
-                            <div>Card 3</div>
+
+                        {/* Open Card 3 */}
+                        <div className="cards" id="AdvanceRiskAnalytics">
+                            <a href='#projects' onClick={() => openCard(null)} className='card-link'>
+                                <img src='assets/images/turn-back.png' alt='img' className='card-img' />
+                                <span>Back</span>
+                            </a>
+                            {/* Open Card Content 3 */}
+                            <div className='open-card-cont'>
+                                <div className="open-card-header">Solutions</div>
+                                <div className='open-card-text-cont'>
+                                    <div className='open-card-text'>Take advantage of Xceler’s versatile platform, equipped with powerful computations such as VAR, stress testing, and portfolio simulations. Enjoy the added perk of personalized derivative pricing models, tailored for complex products like accumulators, barrier options, and Asians.</div>
+                                    <ul>
+                                        <li>Industry-Specific Risk Analytics</li>
+                                        <li>Modular & Scalable for Large Computation</li>
+                                        <li>API's based plugins for Cross-Platform Access</li>
+                                        <li>Validated Modelling</li>
+                                        <li>Consulting & Approach Solution</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div className="cards" id="card4">
-                            <a href='#projects' onClick={() => openCard(null)}>Close</a>
-                            <div>Card 4</div>
+
+                        {/* Open Card 4 */}
+                        <div className="cards" id="Taru">
+                            <a href='#projects' onClick={() => openCard(null)} className='card-link'>
+                                <img src='assets/images/turn-back.png' alt='img' className='card-img' />
+                                <span>Back</span>
+                            </a>
+                            {/* Open Card Content 4 */}
+                            <div className='open-card-cont'>
+                                <div className="open-card-header">Solutions</div>
+                                <div className='open-card-text-cont'>
+                                    <div className='open-card-text'>With cutting-edge technology and data-driven insights, we equip farmers with the necessary resources to make informed decisions, enhance productivity, and optimize yields.  From crop planning and cultivation to harvesting, processing, and distribution, we enhance every stage of the agricultural value chain. Our platform grants access to valuable information on weather patterns, soil health, crop diseases, and market trends, empowering farmers to embrace sustainable farming practices and effectively mitigate potential risks. </div>
+                                </div>
+                            </div>
                         </div>
-                    </body>
+                    </div>
 
                     <div className="small-screen-cont d-lg-none">
                         <div className="small-project-strip">

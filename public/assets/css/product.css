@@ -181,8 +181,54 @@
 
 /* Card-Clicked */
 .cards {
-    height: 60vh;
     display: none;
-    padding: 100px;
-    background-color: #034078;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    background-color: #c5c5c5;
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+}
+
+.card-img {
+    height: 30px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.open-card-cont {
+    padding: 50px;
+}
+
+.open-card-header {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.open-card-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.open-card-row {
+    width: 50%;
+    padding: 20px;
+}
+
+.smaller-header {
+    font-weight: bolder;
+}
+
+.open-card-text-cont {
+    padding: 20px;
+}
+
+.open-card-text {
+    padding-bottom: 20px;
+    text-indent: 50px;
 }
