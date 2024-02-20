@@ -8,10 +8,16 @@
     position: relative;
 }
 
-
+.arrow-text {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
 .container-blue {
     display: flex;
-    background: linear-gradient(to left, #44ffd3 0%, #1ca8f4 50%, #034078 100%);
+    background: linear-gradient(to left, #034078 0%, #1ca8f4 50%, #44ffd3 100%);
     margin-left: -170px;
     height: 400px;
 }

@@ -22,20 +22,20 @@ class Work extends Component {
                                             At our core, we are experts in overseeing every technical aspect of software product development. This ranges from crafting software and data architecture to executing engineering tasks like low code development, automation, and systems integration.
                                         </div>
                                         <div className="worklist-cont work-spacing">
-                                            <h6 className="worklist">
-                                                <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                            <h6 className="worklist" style={{paddingBottom: '20px'}}>
+                                                <img src='assets/images/checked.png' alt="img" className="arrow" />
                                                 <span>Digital Consulting</span>
                                             </h6>
-                                            <h6 className="worklist">
-                                                <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                            <h6 className="worklist" style={{paddingBottom: '20px'}}>
+                                                <img src='assets/images/checked.png' alt="img" className="arrow" />
                                                 <span>Product Engineering</span>
                                             </h6>
-                                            <h6 className="worklist">
-                                                <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                            <h6 className="worklist" style={{paddingBottom: '20px'}}>
+                                                <img src='assets/images/checked.png' alt="img" className="arrow" />
                                                 <span>Vulnerability & Security consulting</span>
                                             </h6>
                                             <h6 className="worklist">
-                                                <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                                <img src='assets/images/checked.png' alt="img" className="arrow" />
                                                 <span>Reinforcement Data models and Analytics</span>
                                             </h6>
                                         </div>
@@ -55,19 +55,19 @@ class Work extends Component {
                                     At our core, we are experts in overseeing every technical aspect of software product development. This ranges from crafting software and data architecture to executing engineering tasks like low code development, automation, and systems integration.
                                 </div>
                                 <h6 className="worklist">
-                                    <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                    <img src='assets/images/checked.png' alt="img" className="arrow" />
                                     <span>Digital Consulting</span>
                                 </h6>
                                 <h6 className="worklist">
-                                    <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                    <img src='assets/images/checked.png' alt="img" className="arrow" />
                                     <span>Product Engineering</span>
                                 </h6>
                                 <h6 className="worklist">
-                                    <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                    <img src='assets/images/checked.png' alt="img" className="arrow" />
                                     <span>Vulnerability & Security consulting</span>
                                 </h6>
                                 <h6 className="worklist padding-bottom">
-                                    <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                    <img src='assets/images/checked.png' alt="img" className="arrow" />
                                     <span>Reinforcement Data models and Analytics</span>
                                 </h6>
 

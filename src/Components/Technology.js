@@ -26,25 +26,25 @@ class Technology extends Component {
                                     </div>
 
                                     <div className="text-2">
-                                        <h6 className="arrow-text">
-                                            <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
-                                            <span style={{ fontWeight: 'bold' }}>Cutting-edge open-source technology and certification</span>
+                                        <h6 className="arrow-text" style={{paddingBottom: '20px'}}>
+                                            <img src='assets/images/checked.png' alt="img" className="arrow"/>
+                                            <span>Cutting-edge open-source technology and certification</span>
+                                        </h6>
+                                        <h6 className="arrow-text" style={{paddingBottom: '20px'}}>
+                                            <img src='assets/images/checked.png' alt="img" className="arrow" />
+                                            <span>Best-in-class UI and UX product experience</span>
+                                        </h6>
+                                        <h6 className="arrow-text" style={{paddingBottom: '20px'}}>
+                                            <img src='assets/images/checked.png' alt="img" className="arrow" />
+                                            <span>Robust and scalable backend supporting data and documents</span>
+                                        </h6>
+                                        <h6 className="arrow-text" style={{paddingBottom: '20px'}}>
+                                            <img src='assets/images/checked.png' alt="img" className="arrow" />
+                                            <span>Cutting-edge CI/CD pipelines</span>
                                         </h6>
                                         <h6 className="arrow-text">
-                                            <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
-                                            <span style={{ fontWeight: 'bold' }}>Best-in-class UI and UX product experience</span>
-                                        </h6>
-                                        <h6 className="arrow-text">
-                                            <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
-                                            <span style={{ fontWeight: 'bold' }}>Robust and scalable backend supporting data and documents</span>
-                                        </h6>
-                                        <h6 className="arrow-text">
-                                            <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
-                                            <span style={{ fontWeight: 'bold' }}>Cutting-edge CI/CD pipelines</span>
-                                        </h6>
-                                        <h6 className="arrow-text">
-                                            <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
-                                            <span style={{ fontWeight: 'bold' }}>AI/ML and deployment of reinforcement learning</span>
+                                            <img src='assets/images/checked.png' alt="img" className="arrow" />
+                                            <span>AI/ML and deployment of reinforcement learning</span>
                                         </h6>
                                     </div>
                                 </div>
@@ -68,24 +68,24 @@ class Technology extends Component {
                                 <img src='assets/images/tech.jpeg' alt='img' width="100%" height="auto" className="pt-5" />
 
                                 <div className="container-blue-small">
-                                    <h6 className="arrow-text">
-                                        <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                    <h6 className="arrow-text" style={{paddingBottom: '20px'}}>
+                                        <img src='assets/images/checked.png' alt="img" className="arrow" />
                                         <span style={{ fontWeight: 'bold' }}>Cutting-edge open-source technology and certification</span>
                                     </h6>
-                                    <h6 className="arrow-text">
-                                        <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                    <h6 className="arrow-text" style={{paddingBottom: '20px'}}>
+                                        <img src='assets/images/checked.png' alt="img" className="arrow" />
                                         <span style={{ fontWeight: 'bold' }}>Best-in-class UI and UX product experience</span>
                                     </h6>
-                                    <h6 className="arrow-text">
-                                        <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                    <h6 className="arrow-text" style={{paddingBottom: '20px'}}>
+                                        <img src='assets/images/checked.png' alt="img" className="arrow" />
                                         <span style={{ fontWeight: 'bold' }}>Robust and scalable backend supporting data and documents</span>
                                     </h6>
-                                    <h6 className="arrow-text">
-                                        <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                    <h6 className="arrow-text" style={{paddingBottom: '20px'}}>
+                                        <img src='assets/images/checked.png' alt="img" className="arrow" />
                                         <span style={{ fontWeight: 'bold' }}>Cutting-edge CI/CD pipelines</span>
                                     </h6>
                                     <h6 className="arrow-text">
-                                        <img src='assets/images/arrow-right.svg' alt="img" className="arrow" />
+                                        <img src='assets/images/checked.png' alt="img" className="arrow" />
                                         <span style={{ fontWeight: 'bold' }}>AI/ML and deployment of reinforcement learning</span>
                                     </h6>
                                 </div>
