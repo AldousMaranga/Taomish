@@ -62,7 +62,7 @@ function Map() {
                   <div>
                     <div className='map-header'>Singapore</div>
                     <hr></hr>
-                    <div><strong>Singapore -</strong> 65 Chulia St, OCBC Centre, Singapore 049513</div>
+                    <div><strong>Singapore -</strong> 15-01, Hong Leong Building, 16 Raffles Quay, Singapore 048581</div>
                     <hr></hr>
                     <button data-tab="img2" onClick={() => openTab('img2')} className='img-btn'>View Map</button>
                   </div>

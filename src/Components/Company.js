@@ -14,11 +14,11 @@ class Company extends Component {
                                 <section class="timeline">
                                     <ol>
                                         <li style={{ width: "20px" }}>
-                                            <div style={{ width: "700px" }}>
-                                                <time>2019</time> Our Journey started, tinkering with commodity technology, soon it grew to develop custom options market making solutions. It transitioned to help us set up a core team of enthusiastic engineers and product manager to develop our own stack of supply chain trading and risk management products and solutions.
+                                            <div style={{ width: "500px" }}>
+                                                <time>2019</time> We started tinkering with commodity tech, then developed custom market-making solutions. Now, we've built our own supply chain trading and risk management products with a dedicated team.
                                             </div>
                                         </li>
-                                        <li style={{ width: "600px" }}>
+                                        <li style={{ width: "400px" }}>
                                             <div>
                                                 <time>2020</time> We launched our first MVP SaaS CTRM solutions
                                             </div>
@@ -43,7 +43,12 @@ class Company extends Component {
                                                 <time>2023</time> Our journey continue to innovate and bring smile to our customer with go live and new wins
                                             </div>
                                         </li>
-                                        <li></li>
+                                        <li>
+                                            <div style={{ width: "450px" }}>
+                                                <time>2024</time> By consistently striving to better ourselves every day, we are already making great progress. Join us on this journey and experience the thrill of cutting-edge technology that drives success.
+                                            </div>
+                                        </li>
+                                        <li style={{ width: "450px" }}></li>
                                     </ol>
 
 
@@ -51,15 +56,6 @@ class Company extends Component {
 
                             </div>
                             <div className="company-strip1">
-                                {/* <br />
-                            <br />
-
-                            <div className="arrow-nav" style={{ width: "300px" }}>
-                                <a href="#morals" style={{ textDecoration: 'none', color: '#000000' }}>
-                                    <img src='assets/images/down-arrow.svg' alt='img' width="auto" height="100px" />
-                                    <span>Where we're Heading</span>
-                                </a>
-                            </div> */}
 
                             </div>
                         </div>
@@ -105,6 +101,12 @@ class Company extends Component {
                                             <div class="content">
                                                 <span style={{ fontWeight: 'bold' }}>2023</span>
                                                 <p>Our journey continue to innovate and bring smile to our customer with go live and new wins</p>
+                                            </div>
+                                        </div>
+                                        <div class="container right">
+                                            <div class="content">
+                                                <span style={{ fontWeight: 'bold' }}>2024</span>
+                                                <p>By consistently striving to better ourselves every day, we are already making great progress. Join us on this journey and experience the thrill of cutting-edge technology that drives success.</p>
                                             </div>
                                         </div>
                                     </div>
