@@ -21,7 +21,7 @@ class Team extends Component {
                                     </div>
                                 </div>
                                 <div className="carousel-cont">
-                                    <CCarousel transition="crossfade" controls>
+                                    {/* <CCarousel transition="crossfade" controls>
                                         <CCarouselItem className="carousel-item">
                                             <CImage className="carousel-img" src="assets/images/slide1.jpg" alt="slide 1" />
                                         </CCarouselItem>
@@ -31,14 +31,10 @@ class Team extends Component {
                                         <CCarouselItem className="carousel-item">
                                             <CImage className="carousel-img" src='assets/images/slide3.jpg' alt="slide 3" />
                                         </CCarouselItem>
-                                    </CCarousel>
+                                    </CCarousel> */}
+                                    <img className="carousel-img" src="assets/images/team.png" alt="img" />
                                 </div>
-                                {/* <div className="arrow-nav" style={{ width: '200px', marginLeft: '50px' }}>
-                                <a href="#careers" style={{ textDecoration: 'none' }}>
-                                    <img src='assets/images/down-arrow.svg' alt='img' height="100px" width="auto" />
-                                    <span>Careers</span>
-                                </a>
-                            </div> */}
+
                             </div>
                         </div>
 
@@ -49,7 +45,7 @@ class Team extends Component {
                                     We are a dynamic group of corporate visionaries, product leaders, exceptional designers, and expert engineers. Together, we are driving innovation through strategic thinking, crafting a future-focused approach that sets the stage for tomorrow's accomplishments. Let's unleash our passion and our creative potential as we shape the future of success.
                                 </div>
                                 <div className="carousel-cont-small pb-4">
-                                    <CCarousel transition="crossfade" controls>
+                                    {/* <CCarousel transition="crossfade" controls>
                                         <CCarouselItem className="carousel-item">
                                             <CImage className="carousel-img" src="assets/images/slide1.jpg" alt="slide 1" />
                                         </CCarouselItem>
@@ -59,7 +55,9 @@ class Team extends Component {
                                         <CCarouselItem className="carousel-item">
                                             <CImage className="carousel-img" src='assets/images/slide3.jpg' alt="slide 3" />
                                         </CCarouselItem>
-                                    </CCarousel>
+                                    </CCarousel> */}
+                                    <img className="carousel-img" src="assets/images/team.png" alt="img" />
+
                                 </div>
 
                                 {/* <div className="pb-5">

@@ -22,15 +22,15 @@ class Work extends Component {
                                             At our core, we are experts in overseeing every technical aspect of software product development. This ranges from crafting software and data architecture to executing engineering tasks like low code development, automation, and systems integration.
                                         </div>
                                         <div className="worklist-cont work-spacing">
-                                            <h6 className="worklist" style={{paddingBottom: '20px'}}>
+                                            <h6 className="worklist" style={{ paddingBottom: '20px' }}>
                                                 <img src='assets/images/checked.png' alt="img" className="arrow" />
                                                 <span>Digital Consulting</span>
                                             </h6>
-                                            <h6 className="worklist" style={{paddingBottom: '20px'}}>
+                                            <h6 className="worklist" style={{ paddingBottom: '20px' }}>
                                                 <img src='assets/images/checked.png' alt="img" className="arrow" />
                                                 <span>Product Engineering</span>
                                             </h6>
-                                            <h6 className="worklist" style={{paddingBottom: '20px'}}>
+                                            <h6 className="worklist" style={{ paddingBottom: '20px' }}>
                                                 <img src='assets/images/checked.png' alt="img" className="arrow" />
                                                 <span>Vulnerability & Security consulting</span>
                                             </h6>
@@ -43,7 +43,8 @@ class Work extends Component {
                                 </div>
 
                                 <div className="globe">
-                                    <img src='assets/images/globe.png' alt='img' className="align-bot" width='100%' height='auto'></img>
+                                    <img src='assets/images/new-images/work.jpg' alt='img' className="align-bot" width='100%' height='auto'></img>
+                                    {/* <img src='assets/images/globe.png' alt='img' className="align-bot" width='100%' height='auto'></img> */}
                                 </div>
                             </div>
 
@@ -73,7 +74,8 @@ class Work extends Component {
 
 
                                 <div className="globe-small">
-                                    <img src='assets/images/globe.png' alt='img' width='100%' height='auto'></img>
+                                    {/* <img src='assets/images/globe.png' alt='img' width='100%' height='auto'></img> */}
+                                    <img src='assets/images/new-images/work.jpg' alt='img' width='100%' height='auto'></img>
                                 </div>
                             </div>
                         </div>

@@ -70,7 +70,7 @@
     right: 0;
     top: 0;
     width: calc(45vw - 10px);
-    height: calc(100vh + 100px);
+    height: calc(100vh - 30px);
 }
 
 .align-bot {

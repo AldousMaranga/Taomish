@@ -26,9 +26,9 @@
 
 .team-text {
     padding-left: 50px;
-    width: 20vw;
+    width: 40vw;
     padding-top: 50px;
-    margin-right: 10vw
+    margin-right: 5vw
 }
 
 .team-text1 {
@@ -40,15 +40,12 @@
 .carousel-cont {
     width: 50vw;
     height: auto;
-    /* position: absolute;
-    right: 0;
-    bottom: 160px; */
 }
 
 .carousel-img {
     border-top-left-radius: 150px;
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .CCarouselItem {
@@ -56,7 +53,7 @@
 }
 
 
-@media only screen and (max-width: 1440px){
+/* @media only screen and (max-width: 1440px){
     .team-text {
         padding-left: 50px;
         width: 30vw;
@@ -78,14 +75,6 @@
         font-size: 25px;
     }
 
-    /* .carousel-cont {
-        border-top-left-radius: 66px;
-        width: 450px;
-        height: 300px;
-        position: absolute;
-        right: 0;
-        bottom: 200px;
-    } */
 
     .carousel-img {
         border-top-left-radius: 200px;
@@ -93,7 +82,7 @@
         height: auto;
     }
 
-}
+} */
 
 /* Mobile View */
 .small-team-strip {

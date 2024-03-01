@@ -11,7 +11,7 @@ class Careers extends Component {
                             <div className="career-strip"></div>
                             <div className="career-strip1">
                                 <div className="career-img-cont">
-                                    <img alt="img" src="assets/images/career.jpg" className="career-img" />
+                                    <img alt="img" src="assets/images/new-images/career.jpg" className="career-img" />
                                 </div>
                                 <div className="career-text-cont">
                                     <div className="title">CAREER @ Taomish</div>
@@ -53,7 +53,7 @@ class Careers extends Component {
                                 <div className="career-text2 pb-3">
                                     Working at Taomish India offers more than just a job, it's an opportunity to learn and hone your skills in a supportive and nurturing environment. With a diverse range of projects and experiences, you'll have the chance to specialize and advance professionally. We provide meaningful opportunities to all.
                                 </div>
-                                <img alt="img" src="assets/images/career.jpg" className="career-img pb-3" />
+                                <img alt="img" src="assets/images/new-images/career.jpg" className="career-img pb-3" />
 
                                 {/* <div className="pb-5">
                                 <div className="arrow-nav" style={{ width: '270px', paddingRight: "20px" }}>

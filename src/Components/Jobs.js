@@ -65,10 +65,11 @@ function Jobs() {
                                 <div className='job-placeholder'>
                                     <div class="wistia-cont-job">
                                         <div class="wistia-cont1-job">
-                                            <div className='job-text1'>
+                                            {/* <div className='job-text1'>
                                                 Look for available jobs near you!
-                                            </div>
-                                            <span class="wistia_embed wistia_async_wvazajn35u popover=true videoFoam=true wistia-cont2">&nbsp;</span>
+                                            </div> */}
+                                            {/* <span class="wistia_embed wistia_async_wvazajn35u popover=true videoFoam=true wistia-cont2">&nbsp;</span> */}
+                                            <img src='assets/images/new-images/join-us.jpg' alt='img' height="auto" width="100%"/>
                                         </div>
                                     </div>
                                 </div>
@@ -118,10 +119,12 @@ function Jobs() {
                                 <div id="default-tab" class="tab-content active">
                                     <div class="wistia-cont-job">
                                         <div class="wistia-cont1-job">
-                                            <div className='job-text1'>
+                                            {/* <div className='job-text1'>
                                                 Look for available jobs near you!
                                             </div>
-                                            <span class="wistia_embed wistia_async_wvazajn35u popover=true videoFoam=true wistia-cont2-job">&nbsp;</span>
+                                            <span class="wistia_embed wistia_async_wvazajn35u popover=true videoFoam=true wistia-cont2-job">&nbsp;</span> */}
+                                            <img src='assets/images/new-images/join-us.jpg' alt='img' height="auto" width="100%"/>
+                                        
                                         </div>
                                     </div>
                                 </div>
